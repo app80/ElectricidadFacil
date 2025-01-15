@@ -6,8 +6,17 @@
 
 body {
   font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
+
+.Contenedor {
+  flex: 1; /* Hace que este div llene el espacio disponible */
+  padding: 20px;
+}
 
 .Titulopricipal {
   font-family: Arial, sans-serif;

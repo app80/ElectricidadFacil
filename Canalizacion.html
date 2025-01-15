@@ -90,8 +90,6 @@
     <hr size="4px" color="black" />
     <li><center><a href="Tablas.html">Tablas Referencias</a></center></li>
     <hr size="4px" color="black" />
-    <li><center><a href="Tienda.html">Tienda</a></center></li>
-    <hr size="4px" color="black" />
     <li><center><a href="Acerca-de.html">Contacto</a></center></li>
   </ul>
 
@@ -103,39 +101,7 @@
    <div id="ContenedorTuberia" class="Contenedor">
              
       <div id="ColumnaDatos" class="ContenedorColumnas">
-
-        <div class="margen-texto" style="max-width: 400px; max-height: 500px;">
-          <div style="text-align: justify;">
-            <h4 class="ocultar-p">Fórmula Porcentaje de Ocupación</h4>
-          </div><br>
-
-          <div class="ocultar-p" style="text-align: justify;">
-            <strong>Área de cada conductor:</strong> Se Cálcula el área de la sección transversal de un conductor utilizando la fórmula: <br>
-            <center><img src="./Imagenes/Formula Area conductor.bmp" alt=""></center>
-            <br>
-            Ac: es el área de un conductor. <br>
-            d : es el diámetro del conductor.
-          </div><br>
-
-          <div class="ocultar-p" style="text-align: justify;">
-              <strong>Área total de los conductores:</strong> Multiplica el área de un conductor por el número total de conductores (n):
-              <center><img src="./Imagenes/Area Conductor.bmp" alt=""></center>
-            </div><br>
-
-            <div class="ocultar-p" style="text-align: justify;">
-              <strong>Área de la tubería:</strong> Cálcula el área de la sección transversal de la tubería: <br> 
-              <center><img src="./Imagenes/Diametro Tuberia.bmp" alt=""></center>
-              <br>
-              At: es el área de la tubería. <br>
-              D : es el diámetro de la tubería.
-            </div><br>   
-
-            <div style="text-align: justify;">
-              <strong>Porcentaje de ocupación:</strong>Se cálcula el porcentaje de ocupación usando la fórmula: <br> 
-              <center><img width="330px" src="./Imagenes/Porcentaje Ocupacion.bmp" alt=""></center>
-            </div>   <br><br>
-
-        </div>
+      </div>
   
         <div class="ColumnaCanalizacion">
           <table class="table">
@@ -284,41 +250,26 @@
             </tbody>
           </table>
         </div>
-
-       <div class="Columna2">
-      </div>
           
       </div>
 
     </div>
 
-    <br><br>
-
     <center>
     <div class="chart-container" style="position: relative; height:40vh; width:80vw">
+      <br>
+      <center><a class = "Links" href="Canalizacion.html"><button type="button" id="Volver_Calcular" class="btn btn-primary">VOLVER CALCULAR</button></a></center>
+      <br>
       <canvas id = "GraficaTubo" class="lienzo"></canvas>
     </div>
     <br>
    
-    <span id="LeyendaCanalizacion" > Si % Factor de Ocupación = 0 significa que no hay datos definidos en Tabla NEC.</span>
+    <span id="LeyendaCanalizacion" style="padding-left: 10px; padding-right: 10px;"> Si % Factor de Ocupación = 0 significa que no hay datos definidos en Tabla NEC.</span>
     <br>
     </center>
     <br><br>
-    <center><a class = "Links" href="Canalizacion.html">VOLVER A CALCULAR</a></center>
 
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
+    
     <footer>
       <div class="contenido">
         <p>&copy; 2025 ELECTRICIDAD FACIL - Todos los derechos reservados</p>

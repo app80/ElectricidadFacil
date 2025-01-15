@@ -9,7 +9,7 @@ window.addEventListener("load",function(){
   document.getElementById("AlertaTuberia").hidden=true
   document.getElementById("ColumnaDatos").hidden = false; 
   document.getElementById("movil-menu").hidden = true;
-
+  document.getElementById("Volver_Calcular").hidden = true;
 
 }); 
 
@@ -60,12 +60,10 @@ OtraLista.addEventListener("click",function(){
     var AWG = document.getElementById("Calibre");
     var MCM = document.getElementById("CalibreMCM");
     var Ncond = document.getElementById("Nconductores").value;
-    var SeccionConductor;
-    var i;
-    var Conductor;
 
     var Tuberia = document.getElementById("TipoTuberia");
     let TuberiaSeleccionada = Tuberia.options[Tuberia.selectedIndex].value;
+
 
     var Confirmacion = true;
     
@@ -85,15 +83,13 @@ OtraLista.addEventListener("click",function(){
       if (ListadoAWG == false){
   
         let AWGSeleccionado = AWG.options[AWG.selectedIndex].value;
-        SeccionConductor = AreaConductores(AWGSeleccionado);
-        console.log(SeccionConductor);
-        Conductor = AWGSeleccionado + " AWG";
+        var SeccionConductor = AreaConductores(AWGSeleccionado);
+        var Conductor = AWGSeleccionado + " AWG";
       } else {
   
         let MCMSeleccionado = MCM.options[MCM.selectedIndex].value;
-        SeccionConductor = AreaConductores(MCMSeleccionado);
-        console.log(SeccionConductor);
-        Conductor = MCMSeleccionado + " MCM";
+        var SeccionConductor = AreaConductores(MCMSeleccionado);
+        var Conductor = MCMSeleccionado + " MCM";
       };
   
   
@@ -108,7 +104,7 @@ OtraLista.addEventListener("click",function(){
   
       const CalculoSeccionOcupada  = Array.of(12);
   
-      for (i=0; i<=11; i++) { 
+      for (var i = 0; i<=11; i++) { 
   
         if (TablaAreaTubosSeleccionada[i] !=  0) {
     
@@ -140,7 +136,7 @@ OtraLista.addEventListener("click",function(){
       GraficarResultados(CalculoSeccionOcupada);
       console.log(Ncond);
       
-
+      document.getElementById("Volver_Calcular").hidden = false;
   
     } 
        
