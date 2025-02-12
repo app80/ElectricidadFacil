@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Electricidad Facil te permite cálculos eléctricos rápidos y fáciles en nuestro sitio web. Ideal para principiantes en electricidad, te ofrecemos herramientas y guías para simplificar tu trabajo y mejorar tus habilidades. ¡Empieza a aprender hoy mismo!">
+  <link rel="stylesheet" type="text/css" href="Estilos.css">
+  
+  
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+      <!-- Boostrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      
+      <!-- JQUERY -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+      <link rel="icon" href="./Imagenes/Easy Facil.png">
+  
+      <title>ELECTRICIDAD FACIL</title>
+      
+  </head>
+  
+<body class="Fondo">
+
+  <header>
+  
+    <!--Barra de navegación-->
+    <nav class="navbar">
+      <div class="contenedor-menu">
+        <img class="Icono" src="./Imagenes/Easy Facil.png" alt="electricidad">
+        <button id="hamburguesa" class="abrir-menu"><img style="height: 50px; width: 50px;" src="./Imagenes/Icono Hamburguesa 1.jpg" alt="hamburguesa" ></button>
+        <ul class="menu-horizontal">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="#">Contenido⬇️</a>
+            <ul class="menu-vertical">
+              <li><a href="/Conceptos.html">Conceptos Básicos</a></li>
+              <li><a href="Componentes.html">Componentes Eléctricos</a></li>
+              <li><a href="/Proteccion.html">Protección Eléctrica</a></li>
+              <li><a href="/Conexion_Electrica.html">Conexion Electrica</a></li>
+              <li><a href="/Estandares.html">Normas NEC/IEC</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Herramientas⬇️</a>
+            <ul class="menu-vertical">
+              <li><a href="/Herramientas.html">Herramientas</a></li>
+              <li><a href="/Manuales.html">Manuales</a></li>
+              <li><a href="/Electricas.html">Eléctricas</a></li>
+              <li><a href="/Medicion.html">Medición</a></li>
+            </ul>
+          </li>
+          <li><a href="/Calculos.html">Cálculos</a></li>
+          <li><a href="/Tienda.html">Tienda</a></li>
+        </ul>
+      </div>
+    </nav>
+      <!--Fin Barra de navegación-->
+       
+      <!--Menú Hamburguesa -->
+      <div id="movil-menu" class="menu-oculto">
+        <ul class="movil-lista-nav">
+  
+          <li style="margin-top: 10px;"><center><a href="/">Inicio</a></center></li>
+          <hr size="4px" color="black" />
+  
+          <li><center><a href="#">Contenido</center></a>
+            <hr size="4px" color="black" />
+            <ul class = "sub_menu_movil">
+              <li style="margin-bottom: 10px;" ><center><a href="/Conceptos.html">Conceptos Básicos          </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Componentes.html">Componentes Eléctricos   </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Proteccion.html">Protección Eléctrica      </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Conexion_Electrica.html">Conexion Electrica</a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Estandares.html">Normas NEC/IEC</a></center></li>
+              <hr size="4px" color="black" />
+            </ul>
+          </li>
+  
+          <li><center><a href="/Calculos.html">Cálculos</center></a></li>
+            <hr size="4px" color="black" />
+          <li><center><a href="#">Herramientas</a></center>
+            <hr size="4px" color="black" />
+            <ul class="sub_menu_movil">
+              <li><center><a href="/Herramientas.html">Herramientas</a></center></li>
+              <li><center><a href="/Manuales.html"    >Manuales    </a></center></li>
+              <li><center><a href="/Electricas.html"  >Eléctricas  </a></center></li>
+              <li><center><a href="/Medicion.html"    >Medición    </a></center></li>
+              <hr size="4px" color="black" />
+           </ul>
+          </li>
+    
+          <li><center><a href="/Tienda.html"> Tienda </a></center></li>
+          <hr size="4px" color="black" />
+
+        </ul>
+
+      </div>
+    <!--Fin Menú Hamburguesa -->
+
+  <!--Titulo Principal -->
+    <div class="center-proteccion">
+      <center><h1  class="Titulo_Principal" style="margin-top: 15PX; padding-bottom: 10px;"><strong>CÁLCULOS</strong></h1></center>
+    </div>
+   <!--Fin de Titulo Principal -->
+  </header>
+  
+
+<div class="Contenedor">
+
+  <aside class="Aside_Izquierdo">
+    <P style="margin-left: 10px; color: darkgoldenrod;"><strong>MENÚ</strong></P>
+    <ul>
+      <li class="Lista_Calculos"><a href="/Conceptos.html">Conceptos básicos</a></li>
+      <li class="Lista_Calculos"><a href="/Componentes.html">Componentes Eléctricos</a></li>
+      <li class="Lista_Calculos"><a href="/Proteccion.html">Protección Eléctrica</a></li>
+      <li class="Lista_Calculos"><a href="/Conexion_Electrica.html">Conexión Eléctrica</a></li>
+      <li class="Lista_Calculos"><a href="/Estandares.html">Normas IEC/NEC</a></li>
+      <li class="Lista_Calculos"><a href="/Calculos.html">Cálculos</a></li>
+      <li class="Lista_Calculos"><a href="/Herramientas.html">Herramientas</a></li>
+      <li class="Lista_Calculos"><a href="/Tienda.html">Tienda</a></li>
+      <li class="Lista_Calculos"><a href="/DescargarApp.html">Descargar App</a></li>
+    </ul>
+  </aside>
+
+  <main>
+
+    <section>
+
+    <!--Menu Calculos -->
+      <div class="menu_calculos">
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>
+                <center>
+                  <a href="Capacidad_Conductor.html"><button class = "botones_calculos"> Capacidad Conductor</button></a>
+                </center>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <center>
+                  <a href="Calculo_Corriente.html"><button class = "botones_calculos"> Cálculo Corriente  </button></a>
+                </center>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <center>
+                  <a href="Calculo_Canalizacion.html"><button class = "botones_calculos"> Diametro Tubería </button></a>
+                </center>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <center>
+                  <a href="Consumo_Electrico.html"><button class = "botones_calculos"> Consumo Eléctrico  </button></a>
+                </center>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <center>
+                  <a href="Conversion_Unidades.html"><button class = "botones_calculos"> Conversión Unidades</button></a>
+                </center>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <center>
+                  <a href="Tablas_Referencias.html"><button class = "botones_calculos"> Tablas Referencias</button></a>
+                </center>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--Fin Menu Calculos -->
+
+      <!--Descripcion -->
+      <div class="Descripcion">
+        <div class="row align-items-start" >
+          <p id="Introduccion_Calculos">
+            Bienvenido a tu recurso confiable para todos los cálculos eléctricos. Nuestro objetivo es simplificar el mundo de la
+            electricidad y hacerlo accesible para todos, desde estudiantes hasta profesionales del sector. Ofrecemos estas herramientas
+            y guías fáciles de usar que te ayudarán a realizar cálculos precisos y eficientes. Estamos aquí para proporcionarte la 
+            información y los recursos que necesitas.
+            
+            Esperamos que encuentres útiles nuestros recursos y que nos acompañes en este viaje hacia un mejor entendimiento de la
+            electricidad. 
+          </p>
+        </div>
+      </div>
+      <!--Fin Descripcion -->
+
+    </section>
+
+
+  </main>
+
+<!--Tienda Online-->
+<aside Class = "Aside_Derecho">
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>Tester Fluke 323<br>True RMS </strong></p>
+    <a  href="/Tienda.html"  class="Link" href=""><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Multimetro 323.bmp" alt="multimetro"></a>
+    <p style="text-align: center; color: red;" id="Oferta2"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta2').style.color;
+        if(color == "red"  ) {document.getElementById('Oferta2').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta2').style.color = "red" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong> Inflador neumáticos <br> portátil</strong></p>
+    <a class="Link" href="/Tienda.html"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Inflador Automa.bmp" alt="inflador"></a>
+    <p style="text-align: center; color: chartreuse;" id="Oferta3" ><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta3').style.color;
+        if(color == "chartreuse") {document.getElementById('Oferta3').style.color = "white"}
+        if(color == "white"     ) {document.getElementById('Oferta3').style.color = "chartreuse" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <br>
+  
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>Tester Fluke 323<br>True RMS </strong></p>
+    <a  href="/Tienda.html"  class="Link" href=""><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Multimetro 323.bmp" alt="multimetro"></a>
+    <p style="text-align: center; color: red;" id="Oferta2"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta2').style.color;
+        if(color == "red"  ) {document.getElementById('Oferta2').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta2').style.color = "red" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong> Inflador neumáticos <br> portátil</strong></p>
+    <a class="Link" href="/Tienda.html"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Inflador Automa.bmp" alt="inflador"></a>
+    <p style="text-align: center; color: chartreuse;" id="Oferta3" ><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta3').style.color;
+        if(color == "chartreuse") {document.getElementById('Oferta3').style.color = "white"}
+        if(color == "white"     ) {document.getElementById('Oferta3').style.color = "chartreuse" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+</aside>
+<!--Fin Tienda Online-->
+</div>
+
+   <br><br><br><br><br><br>
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <hr>
+   
+   <div class="Contenedor_Contacto">
+     <table>
+       <tbody>
+         <tr>
+           <td><img class="Imagen_Contacto" src="Imagenes/Foto Contacto.bmp" alt=""></td>
+           <td style="color: royalblue;"> <span class="Label_autor"><strong> EL AUTOR<br><br> KENNY CADENA </span></strong> </td>
+         </tr>
+       </tbody>
+     </table>
+   
+     <br>
+   
+     <div>
+       <p>
+         Kenny! Entusiasta en el campo de la electricidad y programación, puede integrar soluciones
+         para automatización y herramientas web para ingenieros eléctricos u otras aréas. Si necesitas ayuda
+         con proyectos no dudes en contactarme. 
+       </p>
+       <div class="redes-sociales"><center>
+         <a href="https://www.facebook.com/electrofacil80/" target="_blank"><img class="IconRedes" src="Imagenes/274791_facebook_social network_icon.png" alt=""></i></a>
+         <a href="https://www.instagram.com/elec_trico19/" target="_blank"><img class="IconRedes" src="./Imagenes/6929237_instagram_icon.png" alt=""></i></a>
+         <a href="https://www.tiktok.com/@electrofacil80" target="_blank"><img class="IconRedes" src="./Imagenes/tik-tok.png" alt=""></i></a>
+         <a href="mailto:electricidadfacil80@gmail.com" target="_blank"><img class="IconRedes" src="./Imagenes/gmail.png" alt=""></i></a>
+       </center>
+       </div>
+   
+     </div>
+   
+   </div>
+   
+   <br>
+   <br>
+   <br>
+   
+    <footer>
+     <div class="contenido">
+       <p>&copy; 2025 ELECTRICIDAD FACIL</p>
+       <p>Todos los Derechos</p>
+       <p>Reservados</p>
+     </div>
+   </footer>
+       
+    <script src="Calculos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>
+
+
+

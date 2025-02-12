@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Electricidad Facil te permite cálculos eléctricos rápidos y fáciles en nuestro sitio web. Ideal para principiantes en electricidad, te ofrecemos herramientas y guías para simplificar tu trabajo y mejorar tus habilidades. ¡Empieza a aprender hoy mismo!">
+  <link rel="stylesheet" type="text/css" href="Estilos.css">
+  
+  
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+      <!-- Boostrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      
+      <!-- JQUERY -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+      <link rel="icon" href="./Imagenes/Easy Facil.png">
+  
+      <title>ELECTRICIDAD FACIL</title>
+      
+  </head>
+  
+<body class="Fondo">
+
+  <header>
+  
+    <!--Barra de navegación-->
+    <nav class="navbar">
+      <div class="contenedor-menu">
+        <img class="Icono" src="./Imagenes/Easy Facil.png" alt="electricidad">
+        <button id="hamburguesa" class="abrir-menu"><img style="height: 50px; width: 50px;" src="./Imagenes/Icono Hamburguesa 1.jpg" alt="hamburguesa" ></button>
+        <ul class="menu-horizontal">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="#">Contenido⬇️</a>
+            <ul class="menu-vertical">
+              <li><a href="/Conceptos.html">Conceptos Básicos</a></li>
+              <li><a href="Componentes.html">Componentes Eléctricos</a></li>
+              <li><a href="/Proteccion.html">Protección Eléctrica</a></li>
+              <li><a href="/Conexion_Electrica.html">Conexion Electrica</a></li>
+              <li><a href="/Estandares.html">Normas NEC/IEC</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Herramientas⬇️</a>
+            <ul class="menu-vertical">
+              <li><a href="/Herramientas.html">Herramientas</a></li>
+              <li><a href="/Manuales.html">Manuales</a></li>
+              <li><a href="/Electricas.html">Eléctricas</a></li>
+              <li><a href="/Medicion.html">Medición</a></li>
+            </ul>
+          </li>
+          <li><a href="/Calculos.html">Cálculos</a></li>
+          <li><a href="/Tienda.html">Tienda</a></li>
+        </ul>
+      </div>
+    </nav>
+      <!--Fin Barra de navegación-->
+       
+      <!--Menú Hamburguesa -->
+      <div id="movil-menu" class="menu-oculto">
+        <ul class="movil-lista-nav">
+  
+          <li style="margin-top: 10px;"><center><a href="/">Inicio</a></center></li>
+          <hr size="4px" color="black" />
+  
+          <li><center><a href="#">Contenido</center></a>
+            <hr size="4px" color="black" />
+            <ul class = "sub_menu_movil">
+              <li style="margin-bottom: 10px;" ><center><a href="/Conceptos.html">Conceptos Básicos          </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Componentes.html">Componentes Eléctricos   </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Proteccion.html">Protección Eléctrica      </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Conexion_Electrica.html">Conexion Electrica</a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Estandares.html">Normas NEC/IEC</a></center></li>
+              <hr size="4px" color="black" />
+            </ul>
+          </li>
+  
+          <li><center><a href="/Calculos.html">Cálculos</center></a></li>
+            <hr size="4px" color="black" />
+          <li><center><a href="#">Herramientas</a></center>
+            <hr size="4px" color="black" />
+            <ul class="sub_menu_movil">
+              <li><center><a href="/Herramientas.html">Herramientas</a></center></li>
+              <li><center><a href="/Manuales.html"    >Manuales    </a></center></li>
+              <li><center><a href="/Electricas.html"  >Eléctricas  </a></center></li>
+              <li><center><a href="/Medicion.html"    >Medición    </a></center></li>
+              <hr size="4px" color="black" />
+           </ul>
+          </li>
+    
+          <li><center><a href="/Tienda.html"> Tienda </a></center></li>
+          <hr size="4px" color="black" />
+
+        </ul>
+
+      </div>
+    <!--Fin Menú Hamburguesa -->
+
+
+  <!--Titulo Principal -->
+    <div class="center-componentes">
+      <center><h1  class="Titulo_Principal" style="margin-top: 15PX; padding-bottom: 10px;"><strong>COMPONENTES ELECTRICOS</strong></h1></center>
+    </div>
+   <!--Fin de Titulo Principal -->
+  </header>
+  
+
+<div class="Contenedor">
+
+  <aside class="Aside_Izquierdo">
+    <P style="margin-left: 10px; color: darkgoldenrod;"><strong>MENÚ</strong></P>
+    <ul>
+      <li class="Lista_Calculos"><a href="/Conceptos.html">Conceptos básicos</a></li>
+      <li class="Lista_Calculos"><a href="/Componentes.html">Componentes Eléctricos</a></li>
+      <li class="Lista_Calculos"><a href="/Proteccion.html">Protección Eléctrica</a></li>
+      <li class="Lista_Calculos"><a href="/Conexion_Electrica.html">Conexión Eléctrica</a></li>
+      <li class="Lista_Calculos"><a href="/Estandares.html">Normas IEC/NEC</a></li>
+      <li class="Lista_Calculos"><a href="/Calculos.html">Cálculos</a></li>
+      <li class="Lista_Calculos"><a href="/Herramientas.html">Herramientas</a></li>
+      <li class="Lista_Calculos"><a href="/Tienda.html">Tienda</a></li>
+      <li class="Lista_Calculos"><a href="/DescargarApp.html">Descargar App</a></li>
+    </ul>
+  </aside>
+
+  <main>
+
+    <section>
+      <!--Descripcion -->
+      <div class="Descripcion">
+        <div class="row align-items-start" >
+          <p>
+            En esta sección, te ofrecemos una introducción a los principales componentes eléctricos que forman parte de cualquier circuito. Aprenderás sobre su funcionamiento, 
+            características y aplicaciones prácticas.
+          </p>
+        </div>
+      </div>
+      <!--Fin Descripcion -->
+    </section>
+    
+    <br><br><br>
+
+    <section>  
+      <article>
+        <center><h2  class="Titulo_Secundario"><strong>¿QUE SON RESISTORES? </strong></h2><br></center>
+        <div class="Articulos">
+          <div class="row align-items-start" >
+            <p style="font-size: 20px;">
+              Un resistor (o resistencia) es un componente eléctrico diseñado para limitar o regular el flujo de corriente
+              eléctrica en un circuito. Es uno de los elementos más básicos y fundamentales en la electrónica y tiene diversas
+              aplicaciones. La resistencia se mide en ohmios (Ω).<br><br>
+
+              <strong>Características principales: </strong> <br><br>
+              
+              - Controla el paso de corriente en un circuito. <br>
+              - Convierte energía eléctrica en calor (efecto Joule).<br>
+              - Divide el voltaje en un circuito.<br>
+              - Símbolo en esquemas eléctricos:<br><br>             
+             
+              <strong>Tipos de resistores:</strong><br><br>
+              - Resistores fijos: Tienen un valor constante de resistencia (por ejemplo, 10 Ω, 100 Ω, etc.). <br>
+              - Resistores variables (potenciómetros): Su resistencia puede ajustarse manualmente.<br>
+              - Resistores especiales: Como los termistores (resistencia cambia con la temperatura) y los fotoresistores
+                (resistencia varía con la luz).<br>
+            </p>
+          </div>
+        </div>
+                
+        <br><br>
+        <center><img  class = "Imagen_Secciones" src="Imagenes/Resistor.png" alt="resistor"></center>
+
+      </article>
+
+      <br><br><br><hr>
+
+      <article>
+        <center><h2  class="Titulo_Secundario"><strong>¿QUE UN CAPACITOR? </strong></h2><br></center>
+        <div class="Articulos">
+          <div class="row align-items-start" >
+            <p style="font-size: 20px;">
+              Un capacitor (también llamado condensador) es un componente eléctrico que almacena energía en forma de campo eléctrico.
+              Es un elemento esencial en circuitos eléctricos y electrónicos debido a su capacidad para almacenar y liberar carga eléctrica
+              de manera controlada. <br><br>
+            
+              <strong>¿Cómo funciona un capacitor?</strong> <br>
+              Un capacitor está compuesto por dos placas conductoras separadas por un material aislante llamado dieléctrico. Cuando se aplica
+              un voltaje entre las placas, una acumula carga positiva y la otra carga negativa, creando un campo eléctrico en el dieléctrico. 
+              <br><br>
+              
+              La cantidad de carga que un capacitor puede almacenar depende de su capacitancia, que se mide en faradios (F).
+              <br><br>
+                           
+             <strong>Características principales:</strong><br><br>
+               
+               <strong>1. Capacitancia (C)</strong>: Es la capacidad de un capacitor para almacenar carga, medida en faradios (F). Los valores comunes son
+               microfaradios (μF), nanofaradios (nF) y picofaradios (pF).  <br><br>
+                 
+               <strong>2. Ley de la capacitancia:</strong> <br>  
+                 Relaciona la carga Q almacenada, el voltaje V aplicado, y la capacitancia C:  <br><br>
+                 
+                 Q = C * V  <br><br>
+
+                <strong>3. Carga y descarga: </strong><br><br>
+                <strong>Carga:</strong> Al conectar un capacitor a una fuente de energía, almacena energía hasta que el voltaje en las
+                 placas es igual al de la fuente. <br><br>  
+                <strong>Descarga:</strong> Libera la energía acumulada cuando se conecta a un circuito. <br><br><br>
+                            
+              <strong>Tipos de capacitores:</strong><br><br>
+              1. <strong>Capacitores cerámicos:</strong> Usados en circuitos de alta frecuencia. <br>  
+              2. <strong>Capacitores electrolíticos:</strong> Ofrecen alta capacitancia y se usan en circuitos de corriente continua.  <br>
+              3. <strong>Capacitores de película:</strong> Alta estabilidad, usados en aplicaciones de precisión.  <br>
+              4. <strong>Supercapacitores:</strong> Tienen capacidades muy altas, usados en almacenamiento de energía. <br><br><br>
+                            
+              <strong>Aplicaciones comunes:</strong><br><br>
+              - <strong>Almacenamiento de energía:</strong> En fuentes de alimentación o sistemas de respaldo. <br>  
+              - <strong>Filtrado: </strong>Eliminar ruidos de señales eléctricas.  <br>
+              - <strong>Sistemas de arranque:</strong> Como en motores eléctricos o electrodomésticos.<br>  
+              - <strong>Osciladores y temporizadores: </strong>En circuitos electrónicos para controlar frecuencias o tiempos.<br>
+              
+            </p>
+          </div>
+        </div>
+                
+        <br><br>
+        <center><img  class = "Imagen_Secciones" src="Imagenes/capacitor.jpg" alt="capacitor"></center>
+
+      </article>
+
+      <br><br><br><hr>
+
+      <article>
+        <center><h2  class="Titulo_Secundario"><strong>¿QUE UN INDUCTOR? </strong></h2><br></center>
+        <div class="Articulos">
+          <div class="row align-items-start" >
+            <p style="font-size: 20px;">
+              Un inductor es un componente eléctrico pasivo que almacena energía en forma de campo magnético cuando la corriente
+              eléctrica fluye a través de él. Se utiliza ampliamente en circuitos eléctricos y electrónicos para aplicaciones como
+              filtrado, almacenamiento de energía y conversión de señales. <br><br>
+ 
+              <strong>Características principales:</strong><br><br>
+              
+              1. <strong>Construcción básica:</strong><br>
+                 - Un inductor generalmente consiste en un alambre conductor enrollado en espiras alrededor de un núcleo, que puede ser
+                   de aire, hierro o materiales ferromagnéticos.<br>
+                 - El número de espiras, el tipo de núcleo y la geometría determinan su capacidad inductiva.<br><br>
+              
+              2. <strong>Unidad de medida:</strong><br>
+                 - La inductancia se mide en henrios (H).<br>
+                 - Valores típicos incluyen microhenrios (μH) o milihenrios (mH).<br><br>
+              
+              3. <strong>Ley de Faraday y comportamiento:</strong><br>
+                 - Un inductor resiste los cambios en la corriente debido a la fuerza electromotriz (fem) inducida, que está relacionada
+                   con la variación de corriente di/dt:<br><br>
+                   
+                   V = L di/dt<br><br>
+                   
+                   Donde:<br>
+                   - V: Voltaje inducido.<br>
+                   - L: Inductancia.<br>
+                   - di/dt: Tasa de cambio de la corriente.<br><br>
+                            
+               <strong>Funciones principales:</strong><br>
+              - Almacenar energía: Almacena energía en un campo magnético mientras fluye corriente.<br>
+              - Filtrar señales: Bloquea señales de alta frecuencia y permite el paso de señales de baja frecuencia (en filtros).<br>
+              - Amortiguar picos de corriente: Se utiliza para suavizar la corriente en fuentes de alimentación.<br><br>
+              
+            <strong>Tipos de inductores:</strong><br>
+              1. Inductores de núcleo de aire: Usados en aplicaciones de alta frecuencia.<br>
+              2. Inductores de núcleo de hierro o ferrita: Proporcionan alta inductancia y son comunes en aplicaciones de baja frecuencia.<br>
+              3. Bobinas de choque: Diseñados para bloquear corrientes de alta frecuencia.<br>
+              4. Inductores toroidales: Usan un núcleo en forma de toroide, lo que mejora la eficiencia.<br><br>
+                            
+            <strong>Aplicaciones comunes:<br></strong>
+              - Fuentes de alimentación: Para estabilizar y filtrar señales.<br>
+              - Circuitos de radiofrecuencia: En antenas y transmisores.<br>
+              - Transformadores: Para transferir energía entre circuitos.<br>
+              - Motores eléctricos: Regulación y mejora del rendimiento.<br><br>
+            </p>
+          </div>
+        </div>
+
+        <br><br>
+        <center><img  class = "Imagen_Secciones" src="Imagenes/inductor.png" alt="inductor"></center>
+      </article>  
+      
+      <br><br><br><hr>
+      
+      <article>
+         <center><h2  class="Titulo_Secundario"><strong>¿QUE ES UNA FUENTE DE VOLTAJE? </strong></h2><br></center>
+        <div class="Articulos">
+          <div class="row align-items-start" >
+            <p style="font-size: 20px;">
+              Una fuente de voltaje es un dispositivo o componente que proporciona una diferencia de potencial eléctrico (voltaje)
+              constante o variable entre dos puntos en un circuito eléctrico. Su función principal es alimentar un circuito, 
+              permitiendo que los componentes conectados a ella funcionen correctamente. <br><br>
+
+              <strong>Tipos de fuentes de voltaje:</strong><br><br>
+              1. <strong>Fuentes de voltaje constante (DC):</strong> <br>
+                 - Proporcionan un voltaje fijo en el tiempo.<br>
+                 - Ejemplo: baterías, fuentes de alimentación de corriente continua.<br><br>
+              
+              2. <strong>Fuentes de voltaje alterno (AC):</strong><br>
+                 - El voltaje cambia de forma periódica en amplitud y polaridad.<br>
+                 - Ejemplo: suministro eléctrico en los hogares (110V o 220V a 60 Hz o 50 Hz).<br><br>
+              
+              3. <strong>Fuentes de voltaje variable:</strong> <br>
+                 - Permiten ajustar el nivel de voltaje según las necesidades.<br>
+                 - Ejemplo: fuentes de laboratorio o generadores de señales.<br><br><br>
+                            
+              <strong>Características principales:</strong><br><br>
+              1. <strong>Voltaje (V):</strong><br>
+                 - Es la cantidad de energía potencial eléctrica por unidad de carga. <br>
+                 - Se mide en voltios (V). <br><br>
+              
+              2. <strong>Resistencia interna:</strong><br>
+                 - Las fuentes de voltaje reales tienen una pequeña resistencia interna que afecta su comportamiento bajo carga.<br><br>
+              
+              3. <strong>Capacidad de corriente:</strong><br>
+                 - Indica la cantidad máxima de corriente que puede suministrar la fuente sin dañarse. <br><br>
+              
+              4. <strong>Polaridad:</strong><br>
+                 - Fuentes de corriente continua tienen polaridades positiva y negativa claramente definidas. <br><br><br>
+                            
+              <strong>Ejemplos comunes de fuentes de voltaje:</strong><br><br>
+              - <strong>Baterías:</strong> Usadas en dispositivos portátiles y sistemas de respaldo. <br>
+              - <strong>Paneles solares:</strong> Generan voltaje en función de la luz solar.<br>
+              - <strong>Dínamos y alternadores:</strong> Generan voltaje mediante inducción electromagnética.<br>
+              - <strong>Fuentes de alimentación:</strong> Convertidores entregan voltaje regulado a dispositivos electrónicos.<br><br>
+                            
+              <strong>Aplicaciones:</strong><br>
+              - Alimentar circuitos eléctricos y electrónicos. <br>
+              - Pruebas y diagnósticos en laboratorios.<br>
+              - Generar señales para dispositivos de comunicación o sistemas de control.<br>
+            </p>
+          </div>
+        </div>
+
+        <br><br>
+        <center><img  class = "Imagen_Secciones" src="Imagenes/Fuente Voltaje.jpg" alt="fuente de voltaje"></center>
+      </article>
+
+      <br><br><hr>
+    </section>
+
+    <br><br>
+
+    <section>
+ 
+      <article>
+        <center><h2  class="Titulo_Secundario"><strong>RELÉ / CONTACTOR </strong></h2><br></center>
+        <div class="Articulos">
+          <div class="row align-items-start" >
+            <p style="font-size: 20px;">
+              Un relé y un contactor son dispositivos electromagnéticos que se utilizan para controlar el flujo de corriente en un 
+              circuito eléctrico mediante la activación de un interruptor. Aunque ambos funcionan de manera similar, tienen diferencias
+              clave en su uso y capacidad. <br><br>
+
+              <strong>Relé:</strong> <br>
+              Es un interruptor controlado eléctricamente, diseñado para permitir o interrumpir el paso de corriente en un
+              circuito mediante una señal de baja potencia. Se utiliza comúnmente para activar dispositivos más grandes o realizar
+              tareas de control automático en sistemas electrónicos o de automatización. <br><br>
+              
+              <strong>Componentes principales:</strong> <br><br>
+              
+              - <strong>Electroimán (bobina):</strong>Cuando se aplica una corriente en la bobina, se crea un campo magnético que atrae o repele una 
+              pieza metálica llamada contacto móvil. <br>
+              
+              - <strong>Contactos (abiertos o cerrados):</strong> Dependiendo de la posición del contacto, el relé abre o cierra el circuito. <br><br>
+              
+              <strong>Tipos de relés:</strong> <br><br>
+              
+            <strong>- Relé electromagnético:</strong> El más común, usado en aplicaciones de control de baja potencia. <br><br>
+            <strong>- Relé de estado sólido (SSR):</strong> No tiene partes móviles, es más rápido y duradero.<br><br>
+            <strong>- Relé de sobrecarga:</strong> Utilizado en protección de motores y otros equipos eléctricos.<br><br><br>
+      
+            <strong>Aplicaciones:</strong><br>
+              
+              - Controlar el encendido o apagado de dispositivos en circuitos electrónicos. <br>
+              - Protección de circuitos y componentes al detectar condiciones anormales.<br>
+              - Automatización industrial (por ejemplo, encender una bomba al alcanzar cierto nivel de agua).<br><br><br>
+              
+              <strong>CONTACTOR: </strong><br>
+              Un contactor es un tipo de relé, pero diseñado para manejar corrientes de mayor potencia. Se utiliza principalmente
+              en aplicaciones industriales para controlar la conexión o desconexión de cargas grandes, como motores, luces y equipos
+              de alto voltaje. <br><br>
+              
+            <strong>Componentes principales</strong> <br><br>
+              
+              - <strong> Bobina:</strong> Al igual que el relé, la bobina genera un campo magnético cuando se energiza. <br>
+              - <strong>Contactos:</strong> Son los interruptores que se cierran o abren para permitir o interrumpir el paso de corriente a la carga. <br><br>
+
+              <strong>Diferencias clave entre relé y contactor: </strong><br>
+              
+              - Capacidad de corriente: Los contactores son capaces de manejar corrientes más altas (de varios amperios) en comparación
+                con los relés. <br>
+              - Tamaño y robustez: Los contactores son más grandes y robustos debido a las altas cargas que controlan. <br>
+              - Aplicaciones: Los contactores se utilizan en sistemas de control de motores, iluminación industrial, sistemas HVAC 
+              (calefacción, ventilación y aire acondicionado), etc. <br><br>
+              
+              <strong>Tipos de contactores:</strong><br><br>
+              
+              - <strong>Contactores de baja tensión:</strong> Para controlar cargas como motores pequeños y sistemas de iluminación. <br>
+              - <strong>Contactores de alta tensión:</strong> Usados en aplicaciones industriales y de energía, donde se requiere controlar cargas
+                de gran voltaje. <br><br><br>
+
+              <strong>Aplicaciones: </strong><br>
+              
+              - Control de motores eléctricos: Arranque y paro de motores en sistemas industriales. <br>
+              - Control de sistemas de iluminación y calefacción.<br>
+              - Conmutación de circuitos de alta potencia.<br><br><br>
+
+              <strong>Conclusión</strong><br><br>
+              
+            <strong>Relé:</strong> <br> 
+              - Usado para cargas de baja potencia.<br>
+              - Ideal para aplicaciones electrónicas y de automatización.<br>
+              - Capacidad de corriente más baja. <br><br>
+              
+            <strong> Contactor: </strong><br>
+              - Usado para cargas de alta potencia.<br>
+              - Más robusto, adecuado para aplicaciones industriales.<br>
+              - Capacidad de corriente mucho mayor. <br>
+
+            </p>
+          </div>
+        </div>
+        <br><br>
+        <center><img  class = "Imagen_Secciones" src="Imagenes/contactor.jpg" alt="contactor"></center>
+      </article>
+
+      <br><br><br>
+
+    </section>
+
+
+  </main>
+
+<!--Tienda Online-->
+<aside Class = "Aside_Derecho">
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>Tester Fluke 323<br>True RMS </strong></p>
+    <a  href="/Tienda.html"  class="Link" href=""><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Multimetro 323.bmp" alt="multimetro"></a>
+    <p style="text-align: center; color: red;" id="Oferta2"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta2').style.color;
+        if(color == "red"  ) {document.getElementById('Oferta2').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta2').style.color = "red" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong> Inflador neumáticos <br> portátil</strong></p>
+    <a class="Link" href="/Tienda.html"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Inflador Automa.bmp" alt="inflador"></a>
+    <p style="text-align: center; color: chartreuse;" id="Oferta3" ><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta3').style.color;
+        if(color == "chartreuse") {document.getElementById('Oferta3').style.color = "white"}
+        if(color == "white"     ) {document.getElementById('Oferta3').style.color = "chartreuse" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <br>
+  
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>Tester Fluke 323<br>True RMS </strong></p>
+    <a  href="/Tienda.html"  class="Link" href=""><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Multimetro 323.bmp" alt="multimetro"></a>
+    <p style="text-align: center; color: red;" id="Oferta2"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta2').style.color;
+        if(color == "red"  ) {document.getElementById('Oferta2').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta2').style.color = "red" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong> Inflador neumáticos <br> portátil</strong></p>
+    <a class="Link" href="/Tienda.html"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Inflador Automa.bmp" alt="inflador"></a>
+    <p style="text-align: center; color: chartreuse;" id="Oferta3" ><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta3').style.color;
+        if(color == "chartreuse") {document.getElementById('Oferta3').style.color = "white"}
+        if(color == "white"     ) {document.getElementById('Oferta3').style.color = "chartreuse" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+</aside>
+<!--Fin Tienda Online-->
+
+</div>
+
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <hr>
+   
+   <div class="Contenedor_Contacto">
+     <table>
+       <tbody>
+         <tr>
+           <td><img class="Imagen_Contacto" src="Imagenes/Foto Contacto.bmp" alt=""></td>
+           <td style="color: royalblue;"> <span class="Label_autor"><strong> EL AUTOR<br><br> KENNY CADENA </span></strong> </td>
+         </tr>
+       </tbody>
+     </table>
+   
+     <br>
+   
+     <div>
+       <p>
+         Kenny! Entusiasta en el campo de la electricidad y programación, puede integrar soluciones
+         para automatización y herramientas web para ingenieros eléctricos u otras aréas. Si necesitas ayuda
+         con proyectos no dudes en contactarme. 
+       </p>
+       <div class="redes-sociales"><center>
+         <a href="https://www.facebook.com/electrofacil80/" target="_blank"><img class="IconRedes" src="Imagenes/274791_facebook_social network_icon.png" alt=""></i></a>
+         <a href="https://www.instagram.com/elec_trico19/" target="_blank"><img class="IconRedes" src="./Imagenes/6929237_instagram_icon.png" alt=""></i></a>
+         <a href="https://www.tiktok.com/@electrofacil80" target="_blank"><img class="IconRedes" src="./Imagenes/tik-tok.png" alt=""></i></a>
+         <a href="mailto:electricidadfacil80@gmail.com" target="_blank"><img class="IconRedes" src="./Imagenes/gmail.png" alt=""></i></a>
+       </center>
+       </div>
+   
+     </div>
+   
+   </div>
+   
+   <br>
+   <br>
+   <br>
+   
+    <footer>
+     <div class="contenido">
+       <p>&copy; 2025 ELECTRICIDAD FACIL</p>
+       <p>Todos los Derechos</p>
+       <p>Reservados</p>
+     </div>
+   </footer>
+       
+    <script src="index.js"></script>
+
+  </body>
+
+</html>

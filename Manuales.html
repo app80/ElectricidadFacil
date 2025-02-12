@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Electricidad Facil te permite cálculos eléctricos rápidos y fáciles en nuestro sitio web. Ideal para principiantes en electricidad, te ofrecemos herramientas y guías para simplificar tu trabajo y mejorar tus habilidades. ¡Empieza a aprender hoy mismo!">
+  <link rel="stylesheet" type="text/css" href="Estilos.css">
+  
+  
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+      <!-- Boostrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      
+      <!-- JQUERY -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+      <link rel="icon" href="./Imagenes/Easy Facil.png">
+  
+      <title>ELECTRICIDAD FACIL</title>
+      
+  </head>
+  
+<body class="Fondo">
+
+  <header>
+  
+    <!--Barra de navegación-->
+    <nav class="navbar">
+      <div class="contenedor-menu">
+        <img class="Icono" src="./Imagenes/Easy Facil.png" alt="electricidad">
+        <button id="hamburguesa" class="abrir-menu"><img style="height: 50px; width: 50px;" src="./Imagenes/Icono Hamburguesa 1.jpg" alt="hamburguesa" ></button>
+        <ul class="menu-horizontal">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="#">Contenido⬇️</a>
+            <ul class="menu-vertical">
+              <li><a href="/Conceptos.html">Conceptos Básicos</a></li>
+              <li><a href="Componentes.html">Componentes Eléctricos</a></li>
+              <li><a href="/Proteccion.html">Protección Eléctrica</a></li>
+              <li><a href="/Conexion_Electrica.html">Conexion Electrica</a></li>
+              <li><a href="/Estandares.html">Normas NEC/IEC</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Herramientas⬇️</a>
+            <ul class="menu-vertical">
+              <li><a href="/Herramientas.html">Herramientas</a></li>
+              <li><a href="/Manuales.html">Manuales</a></li>
+              <li><a href="/Electricas.html">Eléctricas</a></li>
+              <li><a href="/Medicion.html">Medición</a></li>
+            </ul>
+          </li>
+          <li><a href="/Calculos.html">Cálculos</a></li>
+          <li><a href="/Tienda.html">Tienda</a></li>
+        </ul>
+      </div>
+    </nav>
+      <!--Fin Barra de navegación-->
+       
+      <!--Menú Hamburguesa -->
+      <div id="movil-menu" class="menu-oculto">
+        <ul class="movil-lista-nav">
+  
+          <li style="margin-top: 10px;"><center><a href="/">Inicio</a></center></li>
+          <hr size="4px" color="black" />
+  
+          <li><center><a href="#">Contenido</center></a>
+            <hr size="4px" color="black" />
+            <ul class = "sub_menu_movil">
+              <li style="margin-bottom: 10px;" ><center><a href="/Conceptos.html">Conceptos Básicos          </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Componentes.html">Componentes Eléctricos   </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Proteccion.html">Protección Eléctrica      </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Conexion_Electrica.html">Conexion Electrica</a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Estandares.html">Normas NEC/IEC</a></center></li>
+              <hr size="4px" color="black" />
+            </ul>
+          </li>
+  
+          <li><center><a href="/Calculos.html">Cálculos</center></a></li>
+            <hr size="4px" color="black" />
+          <li><center><a href="#">Herramientas</a></center>
+            <hr size="4px" color="black" />
+            <ul class="sub_menu_movil">
+              <li><center><a href="/Herramientas.html">Herramientas</a></center></li>
+              <li><center><a href="/Manuales.html"    >Manuales    </a></center></li>
+              <li><center><a href="/Electricas.html"  >Eléctricas  </a></center></li>
+              <li><center><a href="/Medicion.html"    >Medición    </a></center></li>
+              <hr size="4px" color="black" />
+           </ul>
+          </li>
+    
+          <li><center><a href="/Tienda.html"> Tienda </a></center></li>
+          <hr size="4px" color="black" />
+
+        </ul>
+
+      </div>
+    <!--Fin Menú Hamburguesa -->
+
+  <!--Titulo Principal -->
+    <div class="center-herramientas">
+      <center><h1  class="Titulo_Principal" style="margin-top: 15PX; padding-bottom: 10px;"><strong>HERRAMIENTAS <br>MANUALES</BR></strong></h1></center>
+    </div>
+   <!--Fin de Titulo Principal -->
+  </header>
+  
+
+<div class="Contenedor">
+  <aside class="Aside_Izquierdo">
+    <P style="margin-left: 10px; color: darkgoldenrod;"><strong>MENÚ</strong></P>
+    <ul>
+      <li class="Lista_Calculos"><a href="/Conceptos.html">Conceptos básicos</a></li>
+      <li class="Lista_Calculos"><a href="/Componentes.html">Componentes Eléctricos</a></li>
+      <li class="Lista_Calculos"><a href="/Proteccion.html">Protección Eléctrica</a></li>
+      <li class="Lista_Calculos"><a href="/Conexion_Electrica.html">Conexión Eléctrica</a></li>
+      <li class="Lista_Calculos"><a href="/Estandares.html">Normas IEC/NEC</a></li>
+      <li class="Lista_Calculos"><a href="/Calculos.html">Cálculos</a></li>
+      <li class="Lista_Calculos"><a href="/Herramientas.html">Herramientas</a></li>
+      <li class="Lista_Calculos"><a href="/Tienda.html">Tienda</a></li>
+      <li class="Lista_Calculos"><a href="/DescargarApp.html">Descargar App</a></li>
+    </ul>
+  </aside>  
+
+  <main>
+
+    <section>
+      <!--Descripcion -->
+      <div class="Descripcion">
+        <div class="row align-items-start" >
+          <p>
+            En esta Sección trataremos sobre las herramientas manuales son esenciales para cualquier profesional o aficionado
+             de la electricidad. Estas herramientas permiten realizar instalaciones, reparaciones y mantenimiento con precisión
+             y seguridad. A continuación, te presentamos algunas de las más importantes. Estas herramientas no solo son funcionales, 
+             sino que también están diseñadas para cumplir con estándares de seguridad, reduciendo riesgos eléctricos.
+          </p>
+        </div>
+      </div>
+      <!--Fin Descripcion -->
+    </section>
+    
+    <br><br>
+
+    <section>  
+      <article>
+        <div class="Contenedor_Imagenes_Portada">
+          <a class="Link_Imagenes" href="/Tienda"  ><img class="Imagenes-Portada" src="./Imagenes/Mulk War Destornilladores.bmp" alt="destornilladores" ></a> 
+        </div>
+
+        <center><p><strong>MulWark Juego de destornilladores magnéticos de 59 piezas...</strong><p></center>
+        <br>
+
+        <div class="Articulos">
+          <div class="row align-items-start" >
+            <p style="font-size: 20px;">
+                Son dispositivos que se utilizan para realizar trabajos sin la ayuda de energía eléctrica o motorizada. Estas
+                herramientas dependen de la fuerza física del usuario para funcionar. Se utilizan  en una variedad de tareas, 
+                desde la construcción y la jardinería hasta trabajos de reparación y mantenimiento. <br><br>
+       
+             <h4><strong>Características de las Herramientas Manuales:</strong></h4>
+             
+             <br><br>
+              
+             <p class="Parrafo">1. <strong>Portabilidad:</strong> Son generalmente ligeras y fáciles de transportar.
+             </p>
+         
+             <p class="Parrafo">2. <strong>Simplicidad:</strong> Su diseño es simple, lo que facilita su uso y mantenimiento.
+             </p>
+       
+             <p class="Parrafo">3. <strong>Versatilidad:</strong> Pueden ser utilizadas en múltiples tareas y aplicaciones.
+             </p>
+         
+             <p class="Parrafo">4. <strong>Bajo costo:</strong> Suelen ser más económicas que las herramientas eléctricas.
+             </p>
+       
+             <br><br><br>
+
+             <h4><strong>Ejemplos Comunes Herramientas Manuales:</strong></h4>
+             
+             <br><br>
+       
+             <p class="Parrafo">1. <strong>Destornilladores: </strong> Para apretar o aflojar tornillos.
+             </p>
+         
+             <p class="Parrafo">2. <strong> Martillos:</strong> Para clavar clavos o romper objetos.
+             </p>
+       
+             <p class="Parrafo">3. <strong>Llaves:</strong>  Incluyendo llaves inglesas y de tubo, usadas para apretar o aflojar tuercas y pernos.
+             </p>
+         
+             <p class="Parrafo">4. <strong>Sierra manual:</strong>  Para cortar madera o otros materiales.
+             </p>
+       
+             <p class="Parrafo">4. <strong>Cúter: </strong>Para cortar materiales ligeros como papel o cartón.
+             </p>
+       
+             <p class="Parrafo">4. <strong>Pinzas:</strong>Para agarrar o doblar objetos pequeños.
+             </p>
+       
+             <p class="Parrafo">4. <strong>Rascadores y espátulas: </strong>Para limpiar o aplicar materiales.
+             </p>
+       
+             <p class="Parrafo">4. <strong>Cinceles: </strong>Para tallar o dar forma a materiales como madera o piedra.
+             </p>
+            
+             <br><br><br>
+       
+             <h4><strong>Usos Comunes:</strong></h4>
+             
+             <br><br>
+       
+             <p class="Parrafo">1. <strong>Construcción:</strong>En proyectos de carpintería, plomería y electricidad.
+             </p>
+         
+             <p class="Parrafo">2. <strong>Jardinería:</strong>Para plantar, podar y mantener el jardín.
+             </p>
+       
+             <p class="Parrafo">3. <strong>Reparaciones: </strong>En el hogar, para arreglar muebles o instalaciones.
+             </p>
+         
+             <p class="Parrafo">4. <strong>Artes y manualidades: </strong>Para crear y modificar objetos.
+             </p><br>  
+       
+
+            </div>
+        </div>
+                
+        <br><br>
+
+      </article>
+
+      <br><br><br>
+
+    </section>
+
+
+  </main>
+
+
+
+<!--Tienda Online-->
+<aside Class = "Aside_Derecho">
+
+
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>Tester Fluke 323<br>True RMS </strong></p>
+    <a  href="/Tienda.html"  class="Link" href=""><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Multimetro 323.bmp" alt="multimetro"></a>
+    <p style="text-align: center; color: red;" id="Oferta2"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta2').style.color;
+        if(color == "red"  ) {document.getElementById('Oferta2').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta2').style.color = "red" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong> Inflador neumáticos <br> portátil</strong></p>
+    <a class="Link" href="/Tienda.html"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Inflador Automa.bmp" alt="inflador"></a>
+    <p style="text-align: center; color: chartreuse;" id="Oferta3" ><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta3').style.color;
+        if(color == "chartreuse") {document.getElementById('Oferta3').style.color = "white"}
+        if(color == "white"     ) {document.getElementById('Oferta3').style.color = "chartreuse" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <br>
+  
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>Tester Fluke 323<br>True RMS </strong></p>
+    <a  href="/Tienda.html"  class="Link" href=""><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Multimetro 323.bmp" alt="multimetro"></a>
+    <p style="text-align: center; color: red;" id="Oferta2"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta2').style.color;
+        if(color == "red"  ) {document.getElementById('Oferta2').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta2').style.color = "red" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong> Inflador neumáticos <br> portátil</strong></p>
+    <a class="Link" href="/Tienda.html"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Inflador Automa.bmp" alt="inflador"></a>
+    <p style="text-align: center; color: chartreuse;" id="Oferta3" ><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta3').style.color;
+        if(color == "chartreuse") {document.getElementById('Oferta3').style.color = "white"}
+        if(color == "white"     ) {document.getElementById('Oferta3').style.color = "chartreuse" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  
+</aside>
+<!--Fin Tienda Online-->
+</div>
+
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <hr>
+   
+   <div class="Contenedor_Contacto">
+     <table>
+       <tbody>
+         <tr>
+           <td><img class="Imagen_Contacto" src="Imagenes/Foto Contacto.bmp" alt=""></td>
+           <td style="color: royalblue;"> <span class="Label_autor"><strong> EL AUTOR<br><br> KENNY CADENA </span></strong> </td>
+         </tr>
+       </tbody>
+     </table>
+   
+     <br>
+   
+     <div>
+       <p>
+         Kenny! Entusiasta en el campo de la electricidad y programación, puede integrar soluciones
+         para automatización y herramientas web para ingenieros eléctricos u otras aréas. Si necesitas ayuda
+         con proyectos no dudes en contactarme. 
+       </p>
+       <div class="redes-sociales"><center>
+         <a href="https://www.facebook.com/electrofacil80/" target="_blank"><img class="IconRedes" src="Imagenes/274791_facebook_social network_icon.png" alt=""></i></a>
+         <a href="https://www.instagram.com/elec_trico19/" target="_blank"><img class="IconRedes" src="./Imagenes/6929237_instagram_icon.png" alt=""></i></a>
+         <a href="https://www.tiktok.com/@electrofacil80" target="_blank"><img class="IconRedes" src="./Imagenes/tik-tok.png" alt=""></i></a>
+         <a href="mailto:electricidadfacil80@gmail.com" target="_blank"><img class="IconRedes" src="./Imagenes/gmail.png" alt=""></i></a>
+       </center>
+       </div>
+   
+     </div>
+   
+   </div>
+   
+   <br>
+   <br>
+   <br>
+   
+    <footer>
+     <div class="contenido">
+       <p>&copy; 2025 ELECTRICIDAD FACIL</p>
+       <p>Todos los Derechos</p>
+       <p>Reservados</p>
+     </div>
+   </footer>
+       
+    <script src="index.js"></script>
+
+  </body>
+
+</html>

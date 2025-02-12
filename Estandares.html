@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Electricidad Facil te permite cálculos eléctricos rápidos y fáciles en nuestro sitio web. Ideal para principiantes en electricidad, te ofrecemos herramientas y guías para simplificar tu trabajo y mejorar tus habilidades. ¡Empieza a aprender hoy mismo!">
+  <link rel="stylesheet" type="text/css" href="Estilos.css">
+  
+  
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+      <!-- Boostrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      
+      <!-- JQUERY -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+      <link rel="icon" href="./Imagenes/Easy Facil.png">
+  
+      <title>ELECTRICIDAD FACIL</title>
+      
+  </head>
+  
+<body class="Fondo">
+
+  <header>
+  
+    <!--Barra de navegación-->
+    <nav class="navbar">
+      <div class="contenedor-menu">
+        <img class="Icono" src="./Imagenes/Easy Facil.png" alt="electricidad">
+        <button id="hamburguesa" class="abrir-menu"><img style="height: 50px; width: 50px;" src="./Imagenes/Icono Hamburguesa 1.jpg" alt="hamburguesa" ></button>
+        <ul class="menu-horizontal">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="#">Contenido⬇️</a>
+            <ul class="menu-vertical">
+              <li><a href="/Conceptos.html">Conceptos Básicos</a></li>
+              <li><a href="Componentes.html">Componentes Eléctricos</a></li>
+              <li><a href="/Proteccion.html">Protección Eléctrica</a></li>
+              <li><a href="/Conexion_Electrica.html">Conexion Electrica</a></li>
+              <li><a href="/Estandares.html">Normas NEC/IEC</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Herramientas⬇️</a>
+            <ul class="menu-vertical">
+              <li><a href="/Herramientas.html">Herramientas</a></li>
+              <li><a href="/Manuales.html">Manuales</a></li>
+              <li><a href="/Electricas.html">Eléctricas</a></li>
+              <li><a href="/Medicion.html">Medición</a></li>
+            </ul>
+          </li>
+          <li><a href="/Calculos.html">Cálculos</a></li>
+          <li><a href="/Tienda.html">Tienda</a></li>
+        </ul>
+      </div>
+    </nav>
+      <!--Fin Barra de navegación-->
+       
+      <!--Menú Hamburguesa -->
+      <div id="movil-menu" class="menu-oculto">
+        <ul class="movil-lista-nav">
+  
+          <li style="margin-top: 10px;"><center><a href="/">Inicio</a></center></li>
+          <hr size="4px" color="black" />
+  
+          <li><center><a href="#">Contenido</center></a>
+            <hr size="4px" color="black" />
+            <ul class = "sub_menu_movil">
+              <li style="margin-bottom: 10px;" ><center><a href="/Conceptos.html">Conceptos Básicos          </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Componentes.html">Componentes Eléctricos   </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Proteccion.html">Protección Eléctrica      </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Conexion_Electrica.html">Conexion Electrica</a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Estandares.html">Normas NEC/IEC</a></center></li>
+              <hr size="4px" color="black" />
+            </ul>
+          </li>
+  
+          <li><center><a href="/Calculos.html">Cálculos</center></a></li>
+            <hr size="4px" color="black" />
+          <li><center><a href="#">Herramientas</a></center>
+            <hr size="4px" color="black" />
+            <ul class="sub_menu_movil">
+              <li><center><a href="/Herramientas.html">Herramientas</a></center></li>
+              <li><center><a href="/Manuales.html"    >Manuales    </a></center></li>
+              <li><center><a href="/Electricas.html"  >Eléctricas  </a></center></li>
+              <li><center><a href="/Medicion.html"    >Medición    </a></center></li>
+              <hr size="4px" color="black" />
+           </ul>
+          </li>
+    
+          <li><center><a href="/Tienda.html"> Tienda </a></center></li>
+          <hr size="4px" color="black" />
+
+        </ul>
+
+      </div>
+    <!--Fin Menú Hamburguesa -->
+  
+  <!--Titulo Principal -->
+    <div class="center-proteccion">
+      <center><h1  class="Titulo_Principal" style="margin-top: 15PX; padding-bottom: 10px;"><strong>ESTANDARES <br> NEC / IEC</strong></h1></center>
+    </div>
+   <!--Fin de Titulo Principal -->
+  </header>
+  
+
+<div class="Contenedor">
+
+  <aside class="Aside_Izquierdo">
+    <P style="margin-left: 10px; color: darkgoldenrod;"><strong>MENÚ</strong></P>
+    <ul>
+      <li class="Lista_Calculos"><a href="/Conceptos.html">Conceptos básicos</a></li>
+      <li class="Lista_Calculos"><a href="/Componentes.html">Componentes Eléctricos</a></li>
+      <li class="Lista_Calculos"><a href="/Proteccion.html">Protección Eléctrica</a></li>
+      <li class="Lista_Calculos"><a href="/Conexion_Electrica.html">Conexión Eléctrica</a></li>
+      <li class="Lista_Calculos"><a href="/Estandares.html">Normas IEC/NEC</a></li>
+      <li class="Lista_Calculos"><a href="/Calculos.html">Cálculos</a></li>
+      <li class="Lista_Calculos"><a href="/Herramientas.html">Herramientas</a></li>
+      <li class="Lista_Calculos"><a href="/Tienda.html">Tienda</a></li>
+      <li class="Lista_Calculos"><a href="/DescargarApp.html">Descargar App</a></li>
+    </ul>
+  </aside>
+
+  <main>
+
+    <section>
+      <!--Descripcion -->
+      <div class="Descripcion">
+        <div class="row align-items-start" >
+          <p>
+            En esta sección, explicaremos las principales diferencias entre los estándares eléctricos <strong> IEC (International Electrotechnical
+            Commission)</strong> y  <strong>NEC (National Electrical Code)</strong>, dos de los marcos normativos más importantes en el ámbito
+            eléctrico. Están diseñadas para garantizar la seguridad, el funcionamiento eficiente y la estandarización de los sistemas eléctricos
+             en todo el mundo.
+          </p>
+        </div>
+      </div>
+      <!--Fin Descripcion -->
+    </section>
+    
+    <br><br><br>
+
+    <section>  
+      <article>
+        <center><h2  class="Titulo_Secundario"><strong>PRINCIPIOS FUNDAMENTALES NEC / IEC </strong></h2><br></center>
+        <div class="Articulos">
+          <div class="row align-items-start" >
+            <p style="font-size: 20px;">
+         
+              <strong>1. Diseño y Planeación</strong><br>
+              - NEC: Requiere un cálculo adecuado de la carga eléctrica para evitar sobrecargas y asegurar que el sistema pueda
+                 soportar la demanda. <br>
+              - IEC: Enfatiza el análisis de riesgos eléctricos y la planeación para garantizar que el sistema cumpla con los 
+                requisitos operativos y de seguridad. <br> <br>
+              
+                <br><strong>2. Conexión a Tierra (Puesta a Tierra)</strong><br>  
+              - NEC: Todas las instalaciones deben incluir un sistema de conexión a tierra efectivo para evitar descargas eléctricas
+                 y proteger los equipos.  <br>
+              - IEC: Requiere que el sistema de puesta a tierra limite las tensiones de contacto y facilite la desconexión rápida
+                en caso de falla.  <br><br>
+              
+                <br><strong>3. Selección de Conductores</strong><br>
+              - NEC: Los conductores deben ser seleccionados considerando la corriente nominal, la caída de tensión y las condiciones
+               ambientales. Se clasifican por tamaños (AWG o kcmil).<br>  
+              - IEC: Utiliza la sección transversal (en mm²) y exige materiales adecuados (como cobre o aluminio) con aislamiento 
+              resistente al calor y la humedad.  <br><br>
+              
+              <br><strong>4. Protección contra Sobrecargas y Cortocircuitos</strong>  <br>
+              - NEC: Exige dispositivos de protección como interruptores automáticos y fusibles adecuados al calibre del conductor
+               y la carga conectada.  <br>
+              - IEC: Requiere sistemas de protección que desconecten automáticamente la energía en caso de cortocircuitos o
+               sobrecargas, con énfasis en la coordinación de dispositivos.  <br><br>
+              
+               <br><strong>5. Código de Colores para Conductores</strong> <br>
+                NEC:   <br>
+                - Fase: Negro, rojo, azul (en sistemas trifásicos).  <br>
+                - Neutro: Blanco o gris.<br>  
+                - Tierra: Verde o verde/amarillo.<br><br>  
+                IEC:   <br>
+                - Fase: Marrón, negro, gris.<br>  
+                - Neutro: Azul claro.  <br>
+                - Tierra: Verde/amarillo.  <br>
+              
+                <br><strong>6. Protección contra Descargas Eléctricas</strong><br>  
+              - NEC: Uso de dispositivos de interrupción por falla a tierra (GFCI) en áreas húmedas o de riesgo como baños, cocinas
+               y exteriores.  <br>
+              - IEC: Requiere el uso de dispositivos diferenciales (RCD) con sensibilidad adecuada (30 mA para protección personal).  <br>
+              
+              <br><strong>7. Canalizaciones y Conductos</strong>  <br>
+              - NEC: Los conductores deben instalarse en conductos aprobados (PVC, EMT, acero, etc.) para protegerlos de daños 
+              mecánicos y corrosión.  <br>
+              - IEC: Exige protección mecánica adecuada y cumplimiento con las clases de protección IP para resistir condiciones 
+              ambientales específicas.  <br>
+              
+              <br><strong>8. Iluminación y Toma Corriente</strong><br>
+              - NEC: Mínimo un circuito independiente para iluminación. En viviendas, los tomacorrientes deben instalarse cada 6 pies
+                en paredes y en áreas específicas como cocinas y baños.  <br>
+              - IEC: Define distancias mínimas entre puntos de iluminación y enchufes en función del tipo de edificio.  <br>
+              
+              <br><strong>9. Áreas Clasificadas (Ambientes Peligrosos)</strong>  <br>
+              - NEC: Clasifica áreas peligrosas (como zonas con gases inflamables o polvo combustible) en divisiones y grupos, 
+              especificando requisitos de equipos a prueba de explosión.  <br>
+              - IEC: Utiliza el sistema de clasificación de zonas (Zona 0, 1, 2 para gases; Zona 20, 21, 22 para polvos) con equipos
+               certificados según estándares internacionales.  <br>
+              
+               <br><strong>10. Inspección y Mantenimiento</strong><br>
+              - NEC: Todas las instalaciones deben ser inspeccionadas para garantizar el cumplimiento del código antes de su uso.  <br>
+              - IEC: Requiere pruebas periódicas de aislamiento, continuidad de tierra y funcionamiento de dispositivos de protección. <br> 
+              
+              <br><strong>Conclusión</strong>  <br>
+              Ambos estándares buscan proteger a las personas y equipos frente a riesgos eléctricos, pero su aplicación depende del país. El NEC es ampliamente usado en Norteamérica, mientras que el IEC es un estándar internacional adoptado en muchas partes del mundo.  
+      
+            </p>
+          </div>
+        </div>
+      </article>
+      
+      <br><br><br>
+    </section>
+
+
+  </main>
+
+<!--Tienda Online-->
+<aside Class = "Aside_Derecho">
+
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>Tester Fluke 323<br>True RMS </strong></p>
+    <a  href="/Tienda.html"  class="Link" href=""><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Multimetro 323.bmp" alt="multimetro"></a>
+    <p style="text-align: center; color: red;" id="Oferta2"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta2').style.color;
+        if(color == "red"  ) {document.getElementById('Oferta2').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta2').style.color = "red" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong> Inflador neumáticos <br> portátil</strong></p>
+    <a class="Link" href="/Tienda.html"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Inflador Automa.bmp" alt="inflador"></a>
+    <p style="text-align: center; color: chartreuse;" id="Oferta3" ><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta3').style.color;
+        if(color == "chartreuse") {document.getElementById('Oferta3').style.color = "white"}
+        if(color == "white"     ) {document.getElementById('Oferta3').style.color = "chartreuse" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <br>
+  
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>Tester Fluke 323<br>True RMS </strong></p>
+    <a  href="/Tienda.html"  class="Link" href=""><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Multimetro 323.bmp" alt="multimetro"></a>
+    <p style="text-align: center; color: red;" id="Oferta2"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta2').style.color;
+        if(color == "red"  ) {document.getElementById('Oferta2').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta2').style.color = "red" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong> Inflador neumáticos <br> portátil</strong></p>
+    <a class="Link" href="/Tienda.html"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Inflador Automa.bmp" alt="inflador"></a>
+    <p style="text-align: center; color: chartreuse;" id="Oferta3" ><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta3').style.color;
+        if(color == "chartreuse") {document.getElementById('Oferta3').style.color = "white"}
+        if(color == "white"     ) {document.getElementById('Oferta3').style.color = "chartreuse" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  
+</aside>
+<!--Fin Tienda Online-->
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+<div class="Contenedor_Contacto">
+  <table>
+    <tbody>
+      <tr>
+        <td><img class="Imagen_Contacto" src="Imagenes/Foto Contacto.bmp" alt=""></td>
+        <td style="color: royalblue;"> <span class="Label_autor"><strong> EL AUTOR<br><br> KENNY CADENA </span></strong> </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+
+  <div>
+    <p>
+      Kenny! Entusiasta en el campo de la electricidad y programación, puede integrar soluciones
+      para automatización y herramientas web para ingenieros eléctricos u otras aréas. Si necesitas ayuda
+      con proyectos no dudes en contactarme. 
+    </p>
+    <div class="redes-sociales"><center>
+      <a href="https://www.facebook.com/electrofacil80/" target="_blank"><img class="IconRedes" src="Imagenes/274791_facebook_social network_icon.png" alt=""></i></a>
+      <a href="https://www.instagram.com/elec_trico19/" target="_blank"><img class="IconRedes" src="./Imagenes/6929237_instagram_icon.png" alt=""></i></a>
+      <a href="https://www.tiktok.com/@electrofacil80" target="_blank"><img class="IconRedes" src="./Imagenes/tik-tok.png" alt=""></i></a>
+      <a href="mailto:electricidadfacil80@gmail.com" target="_blank"><img class="IconRedes" src="./Imagenes/gmail.png" alt=""></i></a>
+    </center>
+    </div>
+
+  </div>
+
+</div>
+
+<br>
+<br>
+<br>
+
+ <footer>
+  <div class="contenido">
+    <p>&copy; 2025 ELECTRICIDAD FACIL</p>
+    <p>Todos los Derechos</p>
+    <p>Reservados</p>
+  </div>
+</footer>
+ 
+ <script src="index.js"></script>
+
+</body>
+
+</html>

@@ -6,81 +6,333 @@
 
 body {
   font-family: Arial, sans-serif;
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
+}
+
+.Aside_Izquierdo {
+  position: sticky;
+  top:  0; /* Fija el aside en la parte superior */
+  left: 0; /* O usa right: 0; si lo quieres a la derecha */
+  width: 220px; /* Ancho del aside */
+  height: 100vh; /* 100% de la altura de la ventana */
+  background-color: white;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 
-.Contenedor {
-  flex: 1; /* Hace que este div llene el espacio disponible */
+.Aside_Derecho {
+  width: 220px;
+  padding-right: 10px;
+  display: block;
+  text-align: justify;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
   padding: 20px;
 }
 
-.Titulopricipal {
+.Contenedor {
+  display: flex;
+ }
+
+ .Contenedor_login_register {
+  display: flex;
+ }
+
+
+.Fondo {background-color: white;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;
+  margin: auto;
+  background-image: url('Imagenes/Fondo\ nuevo.jpg');
+  height: 300px;
+  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+  margin-bottom: 50px;
+}
+
+.center-conceptos {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;
+  background-image: url('Imagenes/Fondo\ electrico.jpg');
+  height: 300px;
+  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+  margin-bottom: 50px;
+}
+
+.center-componentes {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;
+  background-image: url('Imagenes/componentes\ electricos.jpeg');
+  height: 300px;
+  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+  margin-bottom: 50px;
+}
+
+.center-proteccion {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;
+  background-image: url('Imagenes/Fondo\ Proteccion.jpg');
+  height: 300px;
+  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+  margin-bottom: 50px;
+}
+
+.center-conexion {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;
+  background-image: url('Imagenes/Fondo\ Conexion');
+  height: 300px;
+  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+  margin-bottom: 50px;
+}
+
+.center-herramientas {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;
+  background-image: url('Imagenes/Fondo\ herramientas.jpg');
+  height: 300px;
+  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+  margin-bottom: 50px;
+}
+
+.center-tienda {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;
+  background-image: url('Imagenes/Fondo\ Tienda.jpg');
+  height: 300px;
+  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+  margin-bottom: 50px;
+}
+
+.Descripcion_index {
+  margin: 30px;
+  font-size: 20px;
+  display: flex;
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+  padding-right: 20px;
+}
+
+.Descripcion {
+  margin: 30px;
+  font-size: 20px;
+  display: flex;
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+  padding-right: 20px;
+}
+
+
+.Articulos {
+  margin: 30px;
+  font-size: 20px;
+  display: flex;
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+  padding-right: 20px;
+}
+
+
+.Contenedor_Secciones {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  padding-right: 20px;
+}
+
+.Secciones {
+  display: block;
+  justify-content: center;
+  width: 250px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Secciones_Calculos {
+  display: block;
+  justify-content: center;
+  width: 50%;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin: auto;
+}
+
+.Secciones_Tablas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+
+.Tabla_corriente {
+  height: 800px;
+  width:  600px;
+}
+
+.Titulo_Principal {
+  font-family: Arial, sans-serif;
+  color: darkgoldenrod;
+  font-size: 60px;
+}
+
+.Titulo_Secundario {
   font-family: Arial, sans-serif;
   color: darkgoldenrod;
   position: none;
 }
 
-.Links {
-  color:black;
-  text-decoration: none;
-  font-size: x-large;
+.Fondo_Titulo{
+  display: flex;
+  background-color: lightgrey;
+  padding: 15px 20px;
+  border-radius: 5px;
+  height: 120px;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.Links:hover {
-  color:blue;
-}
-
-
-.Filas {
+.Imagen{
+  height: 200px;
+  width:  200px;
   margin-bottom: 20px;
 }
 
 
-.Fondo {
-  background-size: cover; 
-  background-position: center;
-  background-image: url('Imagenes/Fondo\ Principal.jpg');
-}
-
-.ColumnaCanalizacion {
-  max-width: 80%;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-  padding: 20px 20px 20px 20px;
-  background-color:white;
+.Imagen_Secciones{
+  height: 300px;
+  width: 800px;
+  margin-left: 30px;
 }
 
 
-.ContenedorTuberiaSelec {
+.Parrafo_Manual {
+  height: 300px;
+  width:  300px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.Portada_Tienda_Manual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.Contenedor_Imagenes_Portada {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.4s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Link_Imagenes {
+  margin-left: 40px;
+  margin-right: 20px;
+  text-decoration: none; color: black;
+  margin-bottom: 30px;
+}
+
+
+.Link_Imagenes:hover {
+  transform: scale(1.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.Imagenes-Portada {
+  height: 200px;
+  width:  200px;
+}
+
+.Logo-Amazon {
+  height: 50px;
+  width:  100px;
+}
+
+.Icono-Amazon {
+  height: 30px;
+  width:  30px;
+}
+
+.Link-amazon {
+  text-decoration: none;
+  color: black;
+}
+
+.Parrafo{
   margin-top: 50px;
+  width: 200px;
 }
 
-.Titulo-h2 {
-  background-color: lightgrey;
-  padding: 15px 20px;
-  border-radius: 5px;
+.Link{
+  text-decoration: none;
+  color: black;
 }
 
-.Titulo-App {
-   display: flex;
-   width: 500px;
+.Lista_Calculos{
+  font-size: 20px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.Lista_Calculos a {
+  text-decoration: none;
+  color:darkgoldenrod;
+  cursor: pointer;
+}
+
+.Lista_Calculos a:hover {
+  color:blue;
 }
 
 /* Barra de navegación */
 
 .navbar {
-  background-color: black;
+  background-color:white;
 }
 
 .contenedor-menu {
   display: flex;
   align-items: center;
 }
-
 
 .Icono {
   height: 5%;
@@ -114,6 +366,41 @@ body {
   background-color: black;
 }
 
+.menu-vertical-login {
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 300px;
+  background-color: white;
+  padding: auto;
+  border-radius: 10px;
+}
+
+
+.idioma_User {
+  display: flex;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.lista_user_idioma {
+  list-style: none;
+}
+
+.muestra_user {
+  text-decoration: none;
+  color: blue;
+}
+
+.idioma_User  li:hover .menu-vertical-login {
+  display: block;
+}
+
+.idioma_User  li ul li a {
+  text-decoration: none;
+}
+
+
 .menu-horizontal li:hover .menu-vertical {
   display: block;
 }
@@ -130,11 +417,13 @@ body {
   color: darkgoldenrod;
 
 }
-
-
 /* Menú Hamburguesa */
 
 .abrir-menu {
+  display: none;
+}
+
+.movil-menu {
   display: none;
 }
 
@@ -154,48 +443,12 @@ body {
   color: blue;
 }
 
-
-
 .movil-lista-nav li {
   list-style: none;
 }
 
-
 /* Fin de Menú Hamburguesa */
 
-
-
-.EtiquetaResultado {
-  color: blue;
-  font-size: x-large;
-}
-
-
-.Videos {
-  border-style: inset;
-  border-color: black;
-  display: block;
-  height: 400px;
-}
-
-.tabla-capacidad {
-  display: block;
-  height: 600px;
-}
-
-.tabla-agrupamiento {
-  display: block;
-  height: 350px;
-}
-
-.Frame {
-  width: 100%;
-  height: 100%;
-}
-
-.filas-conversion{
-  padding-left: 20px;
-}
 
 .menu-oculto{
   display: none;
@@ -209,106 +462,162 @@ body {
   align-items: center;
   background-color: #333;
   position: absolute;
-  margin-top: 70px;
+}
+
+.sub_menu_movil {
+  display: none;
 }
 
 
-/* Seccion Tienda */
-
-
-.Imagenes-Portada {
-  height: 150px;
-  width:  150px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 5px;
-  margin: 5px 5px;
-}
-
-.Portada {
+.center-app {
   display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;
+  background-image: url('Imagenes/Fondo\ App.png');
+  height: 300px;
+  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+  margin-bottom: 50px;
+}
+
+
+.Contenedor-app {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-}
-
-.Columna-Central {
-  width: 1000px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  display: block;
-  background-color: lightgray;
-  border-style: solid;
-  border-radius: 10px;
-  padding-bottom: 50px;
-}
-
-.Contenedor-Imagenes {
-  display: flex;
-  flex-direction: row; 
-  justify-content: center;
-}
-
-
-.Productos {
-  margin : 10px 10px;
-} 
-
-.Imagenes-Tienda {
-  height: 200px;
-  width:  200px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 5px;
-  margin-top: 20px;
-  text-align: justify;
-}
-
-
-.Icono-Amazon {
-  height: 20px;
-  width:  20px;
-  margin-right: 5px;
-}
-
-.Link-amazon {
-  text-decoration: none;
-  color: black;
-
-}
-
-.Parrafo-Tienda {
-  font-size: medium;
-  text-align: center;
-  padding: 15px 15px;
-  max-width: 250px;
-}
-
-.Contenido-Parrafo {
-  max-width: 1000px;
   margin: auto;
 }
 
+.Contenedor-login-registro {
+  width: 80%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
 
-.Parrafo {
- font-size: x-large;
- text-align: justify;
+.Contenedor-login {
+  width: 40%;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height: 500px;
+}
+
+.Contenedor-registro {
+  width: 40%;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height: 600px;
+}
+
+.Imagen_icono_app {
+  height: 100px;
+  width: 200px;
+}
+
+.Imagen_descarga_google {
+  height: 80px;
+  width: 200px;
+}
+
+.Imagen_Contacto {
+  height: 80px;
+  width:  80px;
+  margin-right: 20px;
+}
+
+.Contenedor_Contacto {
+   width: 400px;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   text-align: justify;
+   margin: auto;
+
 }
 
 
+/* Estilos Popup */
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
 
-/* Fin Seccion Tienda */
+.popup {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
 
+.close-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
+.Label_autor {
+  font-size: 30px;
+  align-items: center;
+}
+
+.menu_calculos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none !important;
+}
+
+.botones_calculos {
+  background-color: white;
+  color: darkgoldenrod;
+  font-size: 20px;
+  border-style: none;
+}
+
+.botones_calculos:hover {
+  color: blue;
+}
 
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 768px) {
 
+  .Icono {
+    height: 10%;
+    width:  10%;
+  }
 
   /* Menú Hamburguesa */
-
   .abrir-menu {
     display: block;
     margin-right: 3%;
+    border-style: none;
   }
   
   .contenedor-menu {
@@ -324,132 +633,125 @@ body {
     display: block;
   }
 
+  .movil-lista-nav li:hover .sub_menu_movil {
+    display: block;
+  }
+
 /* Fin Menú Hamburguesa */
-
-
-  .Icono {
-    height: 12%;
-    width:  12%;
-    margin-left: 5px;
-  }
-  
-  .Columna {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
 
   .ContenedorColumnas {
     flex-wrap: wrap;  
-  }
-
-  .ColumnaCanalizacion {
-    max-width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .Publicidad {
-    max-height: 200px;
-    max-width: 500px;
-  }
-
-  .Columna1 {
-    margin-bottom: 0px;
-  }
-
-  .Columna2 {
-    margin-top: 80px;
-  }
-
-  .TablaCorriente {
-    max-width: 200px; 
-  }
-
-
-   .TablasTubos {
-    width: 95%;
-   }
-
-   .TablaImpedancia {
-    width: 98%;
-   }
-
-   .tabla-agrupamiento {
-    display: block;
-    height: 250px;
-  }
-
-  .ocultar-p {
-    display: none;
-    width: 100%;
-  }
-
-  .Columna-Central {
-    width: 400px;
   }
 
   .Contenedor-Imagenes {
     flex-direction: column; /* Cambia a disposición vertical */
   }
 
-  .Contenido-Parrafo {
-    max-width: 400px;
+ /* Inicio Header */ 
+  
+  .Titulo_Principal {
+    font-size: 40px;
+  }
+
+  .center-div, .center-conceptos,
+  .center-componentes, .center-proteccion,
+  .center-conexion, .center-herramientas,
+  .center-app {
+    height: 120px;
+  }
+  
+  .center-tienda  {
+    height: 150px;
+  }
+
+/* Fin Header */ 
+
+
+  .Aside_Izquierdo {
+    display: none;
+  }
+  
+  .Aside_Derecho {
+    display: none;
+  }
+
+/* Inicio Body Index */ 
+  .Contenedor_Secciones {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+  }
+
+
+  .Secciones {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .Imagen {
+    height: 120px;
+    width:  120px;
+  }
+/* Fin Body Index */ 
+
+
+  .Imagen_Secciones{
+    height: 150px;
+    width: 80%;
     margin: auto;
   }
 
-  .Portada {
+  .Contenedor_Imagenes_Portada {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
   }
-   
+
+  .Contenedor-mail {
+     width: 100%;
+  }
+  
+  .Contenedor-contenedor-mail {
+    display: block;
+  }  
+  
+  .text_area {
+    width: 400px;
+  }
+
+  .Contenedor-app {
+    width: 90%;
+  }
+
+  .Secciones_Calculos {
+    width: 90%;
+  }
+    
+  
+  .Contenedor_Contacto {
+    width: 60%;
+    font-size: 12px;
+  }
+    
+  .Imagen_Contacto {
+    height: 60px;
+    width:  60px;
+  }
+
+  .Label_autor {
+    font-size: 20px;
+  }
+
+  .Tabla_corriente {
+    height: 700px;
+    width:  400px;
+  }
+  
+
 }
-
-.Titulo{
-  margin-top: 1%;
-   height: 1%;
-   color: black;
- }
-
-.ContenedorColumnas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.Columna1 {
-  padding-right: 50px;
-  padding-left:  50px;
-  padding-bottom: 20px;
-  max-width: 80%;
-}
-
-.Columna2 {
-  padding-right: 50px;
-  padding-left:  50px;
-  padding-bottom: 20px;
-  max-width: 80%;
-}
-
-.table-borderless{
-  border-style: solid;
-  border-width: 5px;
-}
-
-.lienzo{
-  width:  100px;
-  height: 100px;
-}
-
-.ImagenTabla{
-  width: 50%;
-  height: 50%;
-}
-
-
-.EnlaceVideo {
-  color: black;
-}
-
 
 /* Estilos del pie de página */
 footer {

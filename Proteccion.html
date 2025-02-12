@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Electricidad Facil te permite cálculos eléctricos rápidos y fáciles en nuestro sitio web. Ideal para principiantes en electricidad, te ofrecemos herramientas y guías para simplificar tu trabajo y mejorar tus habilidades. ¡Empieza a aprender hoy mismo!">
+  <link rel="stylesheet" type="text/css" href="Estilos.css">
+  
+  
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+      <!-- Boostrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      
+      <!-- JQUERY -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+      <link rel="icon" href="./Imagenes/Easy Facil.png">
+  
+      <title>ELECTRICIDAD FACIL</title>
+      
+  </head>
+  
+<body class="Fondo">
+
+  <header>
+  
+    <!--Barra de navegación-->
+    <nav class="navbar">
+      <div class="contenedor-menu">
+        <img class="Icono" src="./Imagenes/Easy Facil.png" alt="electricidad">
+        <button id="hamburguesa" class="abrir-menu"><img style="height: 50px; width: 50px;" src="./Imagenes/Icono Hamburguesa 1.jpg" alt="hamburguesa" ></button>
+        <ul class="menu-horizontal">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="#">Contenido⬇️</a>
+            <ul class="menu-vertical">
+              <li><a href="/Conceptos.html">Conceptos Básicos</a></li>
+              <li><a href="Componentes.html">Componentes Eléctricos</a></li>
+              <li><a href="/Proteccion.html">Protección Eléctrica</a></li>
+              <li><a href="/Conexion_Electrica.html">Conexion Electrica</a></li>
+              <li><a href="/Estandares.html">Normas NEC/IEC</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Herramientas⬇️</a>
+            <ul class="menu-vertical">
+              <li><a href="/Herramientas.html">Herramientas</a></li>
+              <li><a href="/Manuales.html">Manuales</a></li>
+              <li><a href="/Electricas.html">Eléctricas</a></li>
+              <li><a href="/Medicion.html">Medición</a></li>
+            </ul>
+          </li>
+          <li><a href="/Calculos.html">Cálculos</a></li>
+          <li><a href="/Tienda.html">Tienda</a></li>
+        </ul>
+      </div>
+    </nav>
+      <!--Fin Barra de navegación-->
+       
+      <!--Menú Hamburguesa -->
+      <div id="movil-menu" class="menu-oculto">
+        <ul class="movil-lista-nav">
+  
+          <li style="margin-top: 10px;"><center><a href="/">Inicio</a></center></li>
+          <hr size="4px" color="black" />
+  
+          <li><center><a href="#">Contenido</center></a>
+            <hr size="4px" color="black" />
+            <ul class = "sub_menu_movil">
+              <li style="margin-bottom: 10px;" ><center><a href="/Conceptos.html">Conceptos Básicos          </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Componentes.html">Componentes Eléctricos   </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Proteccion.html">Protección Eléctrica      </a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Conexion_Electrica.html">Conexion Electrica</a></center></li>
+              <li style="margin-bottom: 10px;" ><center><a href="/Estandares.html">Normas NEC/IEC</a></center></li>
+              <hr size="4px" color="black" />
+            </ul>
+          </li>
+  
+          <li><center><a href="/Calculos.html">Cálculos</center></a></li>
+            <hr size="4px" color="black" />
+          <li><center><a href="#">Herramientas</a></center>
+            <hr size="4px" color="black" />
+            <ul class="sub_menu_movil">
+              <li><center><a href="/Herramientas.html">Herramientas</a></center></li>
+              <li><center><a href="/Manuales.html"    >Manuales    </a></center></li>
+              <li><center><a href="/Electricas.html"  >Eléctricas  </a></center></li>
+              <li><center><a href="/Medicion.html"    >Medición    </a></center></li>
+              <hr size="4px" color="black" />
+           </ul>
+          </li>
+    
+          <li><center><a href="/Tienda.html"> Tienda </a></center></li>
+          <hr size="4px" color="black" />
+
+        </ul>
+
+      </div>
+    <!--Fin Menú Hamburguesa -->
+
+  <!--Titulo Principal -->
+    <div class="center-proteccion">
+      <center><h1  class="Titulo_Principal" style="margin-top: 15PX; padding-bottom: 10px;"><strong>PROTECCIÓN ELÉCTRICA</strong></h1></center>
+    </div>
+   <!--Fin de Titulo Principal -->
+  </header>
+  
+
+<div class="Contenedor">
+
+  <aside class="Aside_Izquierdo">
+    <P style="margin-left: 10px; color: darkgoldenrod;"><strong>MENÚ</strong></P>
+    <ul>
+      <li class="Lista_Calculos"><a href="/Conceptos.html">Conceptos básicos</a></li>
+      <li class="Lista_Calculos"><a href="/Componentes.html">Componentes Eléctricos</a></li>
+      <li class="Lista_Calculos"><a href="/Proteccion.html">Protección Eléctrica</a></li>
+      <li class="Lista_Calculos"><a href="/Conexion_Electrica.html">Conexión Eléctrica</a></li>
+      <li class="Lista_Calculos"><a href="/Estandares.html">Normas IEC/NEC</a></li>
+      <li class="Lista_Calculos"><a href="/Calculos.html">Cálculos</a></li>
+      <li class="Lista_Calculos"><a href="/Herramientas.html">Herramientas</a></li>
+      <li class="Lista_Calculos"><a href="/Tienda.html">Tienda</a></li>
+      <li class="Lista_Calculos"><a href="/DescargarApp.html">Descargar App</a></li>
+    </ul>
+  </aside>  
+  
+  <main>
+
+    <section>
+      <!--Descripcion -->
+      <div class="Descripcion">
+        <div class="row align-items-start" >
+          <p>
+            En esta sección tratará  acerca de Los breakers, también conocidos como interruptores automáticos, son dispositivos esenciales
+            en cualquier instalación eléctrica, ya que cumplen una función clave en la protección de personas, equipos y sistemas eléctricos.
+          </p>
+        </div>
+      </div>
+      <!--Fin Descripcion -->
+    </section>
+    
+    <br><br><br>
+
+    <section>  
+      <article>
+        <center><h2  class="Titulo_Secundario"><strong>BREAKER O INTERRUPTOR AUTOMATICO </strong></h2><br></center>
+        <div class="Articulos">
+          <div class="row align-items-start" >
+            <p style="font-size: 20px;">
+              Un breaker o interruptor automático es un dispositivo de protección eléctrica diseñado para interrumpir el flujo
+              de corriente en un circuito cuando detecta condiciones anormales, como una sobrecarga o un cortocircuito. Es 
+              esencial para la seguridad de los sistemas eléctricos, ya que previene daños en los equipos y reduce el riesgo
+              de incendios o accidentes. <br><br><br>
+      
+              <strong>¿Cómo funciona un breaker?</strong><br><br>
+              
+              1. <strong>Detección de la falla:</strong> <br><br>
+                 - <strong>Sobrecarga:</strong> Cuando la corriente supera la capacidad nominal del circuito durante un tiempo prolongado, el breaker se bractiva para proteger el sistema. <br><br>
+                 - <strong>Cortocircuito</strong>: Cuando hay un flujo súbito y excesivo de corriente debido a un contacto directo entre conductores de diferente potencial, el breaker
+                    actúa casi de inmediato. <br><br>
+              
+              2. <strong>Apertura del circuito:</strong><br>
+                 - El breaker abre sus contactos internos, deteniendo el flujo de corriente y aislando la falla. <br><br>
+              
+              3. <strong>Reinicio:</strong> <br>
+                 - Una vez solucionada la causa de la falla, el breaker puede ser reiniciado manualmente. <br><br><br>
+                            
+              <strong>Partes principales de un breaker:</strong><br><br>
+              1. <strong>Palanca o botón de encendido/apagado:</strong> Permite activar o desactivar manualmente el breaker.  <br>
+              2. <strong>Mecanismo de disparo:</strong> Se activa automáticamente cuando detecta una sobrecarga o cortocircuito.  <br>
+              3. <strong>Contactos internos:</strong> Se abren o cierran para permitir o interrumpir el flujo de corriente.  <br>
+              4. <strong>Sensor térmico o magnético:</strong> Detecta sobrecalentamiento o picos de corriente.  <br><br><br>
+                            
+              <strong>Tipos de breakers:</strong><br><br>
+              1. <strong>Breakers térmicos: </strong> Utilizan un bimetal que se calienta y dobla al detectar sobrecargas, interrumpiendo el circuito.  <br><br>
+              2. <strong>Breakers magnéticos:</strong> Detectan corrientes altas (cortocircuitos) mediante un electroimán que dispara el mecanismo.  <br><br>
+              3. <strong>Breakers termomagnéticos:</strong> Combinan ambos principios para proteger contra sobrecargas y cortocircuitos.  <br><br>
+              4. <strong>Breakers diferenciales (GFCI):</strong> Detectan fugas de corriente hacia tierra, protegiendo contra descargas eléctricas. <br><br>  
+              5. <strong>Breakers automáticos de alta capacidad:</strong> Usados en sistemas industriales para manejar grandes corrientes.<br><br><br>
+              
+              <strong>Aplicaciones comunes:</strong><br>
+              - <strong>Residenciales: </strong> Proteger los circuitos eléctricos del hogar. <br>  
+              - <strong>Industriales:</strong> Proteger maquinaria y sistemas eléctricos de gran escala. <br>  
+              - <strong>Comerciales:</strong> Garantizar la seguridad de edificios y oficinas.  <br>
+              - <strong>Energía renovable:</strong> Protección en sistemas solares y eólicos.  <br><br>
+              
+              
+              <strong>Ventajas:</strong><br>
+              - Evita daños en los equipos eléctricos. <br>  
+              - Reduce el riesgo de incendios por sobrecarga o cortocircuitos.<br>  
+              - Es reutilizable y fácil de reiniciar.  <br><br>
+              
+              <strong>Nota:</strong> Los breakers deben seleccionarse según la capacidad de corriente del circuito y la aplicación
+               específica.
+            </p>
+          </div>
+        </div>
+        <br><br>
+        <center>
+          <iframe  class = "Imagen_Secciones" src="https://www.youtube.com/embed/fWp1C1ugrbs?si=QYNP-8Gy5dsQE6Sp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </center>
+      </article>
+      
+      <br><br><br>
+    </section>
+
+
+  </main>
+
+<!--Tienda Online-->
+<aside Class = "Aside_Derecho">
+
+
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>Tester Fluke 323<br>True RMS </strong></p>
+    <a  href="/Tienda.html"  class="Link" href=""><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Multimetro 323.bmp" alt="multimetro"></a>
+    <p style="text-align: center; color: red;" id="Oferta2"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta2').style.color;
+        if(color == "red"  ) {document.getElementById('Oferta2').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta2').style.color = "red" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong> Inflador neumáticos <br> portátil</strong></p>
+    <a class="Link" href="/Tienda.html"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Inflador Automa.bmp" alt="inflador"></a>
+    <p style="text-align: center; color: chartreuse;" id="Oferta3" ><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta3').style.color;
+        if(color == "chartreuse") {document.getElementById('Oferta3').style.color = "white"}
+        if(color == "white"     ) {document.getElementById('Oferta3').style.color = "chartreuse" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <br>
+  
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>Tester Fluke 323<br>True RMS </strong></p>
+    <a  href="/Tienda.html"  class="Link" href=""><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Multimetro 323.bmp" alt="multimetro"></a>
+    <p style="text-align: center; color: red;" id="Oferta2"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta2').style.color;
+        if(color == "red"  ) {document.getElementById('Oferta2').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta2').style.color = "red" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong> Inflador neumáticos <br> portátil</strong></p>
+    <a class="Link" href="/Tienda.html"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Inflador Automa.bmp" alt="inflador"></a>
+    <p style="text-align: center; color: chartreuse;" id="Oferta3" ><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta3').style.color;
+        if(color == "chartreuse") {document.getElementById('Oferta3').style.color = "white"}
+        if(color == "white"     ) {document.getElementById('Oferta3').style.color = "chartreuse" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  <div>
+    <p style="text-align: center;"><strong>TIENDA ONLINE</strong></p>
+    <br>
+    <p style="text-align: center;"><strong>Localizador <br> Circuitos</strong></p>
+    <a href="/Tienda.html" class="Link"><img style="margin-left: 15%; height: 150px; width: 150px;" src="./Imagenes/Localizador.jpg" alt="localizador"></a>
+    <p style="text-align: center; color: blue;" id="Oferta1"><strong>Aprovecha <br> Oferta</strong></p>
+    <script>
+      setInterval(() => {
+        let color = document.getElementById('Oferta1').style.color;
+        if(color == "blue")  {document.getElementById('Oferta1').style.color = "white"}
+        if(color == "white") {document.getElementById('Oferta1').style.color = "blue" }
+      }, 1000);
+    </script>
+  </div>
+  
+  <br><br><br>
+  
+  
+</aside>
+<!--Fin Tienda Online-->
+
+</div>
+
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <hr>
+   
+   <div class="Contenedor_Contacto">
+     <table>
+       <tbody>
+         <tr>
+           <td><img class="Imagen_Contacto" src="Imagenes/Foto Contacto.bmp" alt=""></td>
+           <td style="color: royalblue;"> <span class="Label_autor"><strong> EL AUTOR<br><br> KENNY CADENA </span></strong> </td>
+         </tr>
+       </tbody>
+     </table>
+   
+     <br>
+   
+     <div>
+       <p>
+         Kenny! Entusiasta en el campo de la electricidad y programación, puede integrar soluciones
+         para automatización y herramientas web para ingenieros eléctricos u otras aréas. Si necesitas ayuda
+         con proyectos no dudes en contactarme. 
+       </p>
+       <div class="redes-sociales"><center>
+         <a href="https://www.facebook.com/electrofacil80/" target="_blank"><img class="IconRedes" src="Imagenes/274791_facebook_social network_icon.png" alt=""></i></a>
+         <a href="https://www.instagram.com/elec_trico19/" target="_blank"><img class="IconRedes" src="./Imagenes/6929237_instagram_icon.png" alt=""></i></a>
+         <a href="https://www.tiktok.com/@electrofacil80" target="_blank"><img class="IconRedes" src="./Imagenes/tik-tok.png" alt=""></i></a>
+         <a href="mailto:electricidadfacil80@gmail.com" target="_blank"><img class="IconRedes" src="./Imagenes/gmail.png" alt=""></i></a>
+       </center>
+       </div>
+   
+     </div>
+   
+   </div>
+   
+   <br>
+   <br>
+   <br>
+   
+    <footer>
+     <div class="contenido">
+       <p>&copy; 2025 ELECTRICIDAD FACIL</p>
+       <p>Todos los Derechos</p>
+       <p>Reservados</p>
+     </div>
+   </footer>
+      
+   <script src="index.js"></script>
+   
+  </body>
+
+</html>
+
+
+
+
+
