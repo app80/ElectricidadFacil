@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JVCSHVZ1T"></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-1JVCSHVZ1T');
+    </script>
+    <!-- Fin de Google Analitycs -->
+  
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4717554128967837"
+    crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Electricidad Fácil es tu sitio educativo donde aprenderás de manera sencilla sobre electricidad. Cursos, tutoriales y guías prácticas para principiantes y expertos. ¡Domina la electricidad y mejora tus habilidades con nuestros recursos gratuitos!">
+  <link rel="stylesheet" type="text/css" href="Estilos.css">
+  
+  
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+      <!-- Boostrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      
+      <!-- JQUERY -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+      <link rel="icon" href="./Imagenes/Easy Facil.png">
+  
+      <title>CÁLCULOS BÁSICOS</title>
+      
+  </head>
+  
+<body class="Fondo">
+
+  <header>
+  
+    <!--Barra de navegación-->
+    <nav class="navbar">
+      <div class="contenedor-menu">
+        <img class="Icono" src="./Imagenes/Easy Facil.png" alt="electricidad">
+        <button id="hamburguesa" class="abrir-menu"><img style="height: 50px; width: 50px;" src="./Imagenes/Icono Hamburguesa 1.jpg" alt="hamburguesa" ></button>
+        <ul class="menu-horizontal">
+          <li><a href="Portada.html">Inicio</a></li>
+          <li><a href="#">Contenido</a>
+            <ul class="menu-vertical">
+              <li><a href="Conceptos.html">Conceptos Básicos</a></li>
+              <li><a href="Fuentes de Energia.html">Fuentes de Energia</a></li>
+              <li><a href="Conductores.html">Conductores Eléctricos</a></li>
+              <li><a href="Carga Electrica.html">Carga en Circuitos</a></li>
+              <li><a href="Interruptores.html">Interruptores Eléctricos</a></li>
+              <li><a href="Puesta a Tierra.html">Sistema de Puesta a Tierra</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Cálculos</a>
+            <ul class="menu-vertical">
+              <li style="margin-bottom: 10px;"><a href="Calculos Basicos.html">Básicos</a></li>
+              <li style="margin-bottom: 10px;"><a href="#">Avanzados</a></li>
+            </ul>
+          </li>
+          <li><a href="Quienes Somos.html">Quienes Somos</a></li>
+          <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+      <!--Fin Barra de navegación-->
+       
+      <!--Menú Hamburguesa -->
+      <div id="movil-menu" class="menu-oculto">
+        <ul class="movil-lista-nav">
+          <li style="margin-top: 10px;"><center><a href="Portada.html">Inicio</a></center></li>
+          <hr size="4px" color="black" />
+          <li><center><a href="#">Contenido</a></center>
+            <hr size="4px" color="black" />
+            <ul class = "sub_menu_movil">
+              <li style="margin-bottom: 10px;"><center><a href="Conceptos.html">Conceptos Básicos</a></center></li>
+              <li style="margin-bottom: 10px;"><center><a href="Fuentes de Energia.html">Fuentes de Energía</a></center></li>
+              <li style="margin-bottom: 10px;"><center><a href="Conductores.html">Conductores Eléctricos</a></center></li>
+              <li style="margin-bottom: 10px;"><center><a href="Carga Electrica.html">Carga en Circuitos</a></center></li>
+              <li style="margin-bottom: 10px;"><center><a href="Interruptores.html">Interruptores Eléctricos</a></center></li>
+              <li style="margin-bottom: 10px;"><center><a href="Puesta a Tierra.html">Sistema de Puesta a Tierra</a></center></li>
+              <hr size="4px" color="black" />
+            </ul>
+          </li>
+          <li><center><a href="#">Cálculos</a></center>
+            <hr size="4px" color="black" />
+            <ul class = "sub_menu_movil">
+              <li style="margin-bottom: 10px;"><center><a href="Calculos Basicos.html"  >Básicos</a></center></li>
+              <li style="margin-bottom: 10px;"><center><a href="#">Avanzados</a></center></li>
+              <hr size="4px" color="black" />
+            </ul>
+          </li>
+          <li style="margin-bottom: 10px;"><center><a href="Quienes Somos.html">Quienes Somos</a></center></li>
+          <hr size="4px" color="black" />
+          <li style="margin-bottom: 10px;"><center><a href="Terminos y Condiciones.html">Términos y Condiciones</a></center></li>
+          <hr size="4px" color="black" />
+          <li style="margin-bottom: 10px;"><center><a href="Politicas y Privacidad.html">Politicas y Privacidad</a></center></li>
+          <hr size="4px" color="black" />
+          <li style="margin-bottom: 10px;"><center><a href="Contacto.html">Contacto</a></center></li>
+          <hr size="4px" color="black" />
+        </ul>
+
+      </div>
+    <!--Fin Menú Hamburguesa -->
+
+  </header>
+
+  <!--Titulo Principal -->
+    <div class="center-div">
+      <center><h1 id ="Ohm" class="Titulo_Principal"><strong>CÁLCULOS BÁSICOS</strong></h1></center>
+    </div>
+   <!--Fin de Titulo Principal -->
+
+<div class="Contenedor">
+
+  <aside class="Aside_Izquierdo">
+    <P style="margin-left: 10px; color: darkgoldenrod;"><strong>MENÚ</strong></P>
+    <ul>
+      <li class="Lista_Calculos"><a href="#Ohm">Ley de Ohm</a></li>
+      <li class="Lista_Calculos"><a href="#Arreglos">Arreglos de Resistencias</a></li>
+      <li class="Lista_Calculos"><a href="#Analisis">Analisis en Circuitos Resistivos</a></li>
+      <li class="Lista_Calculos"><a href="#Transformacion">Transformacion Estrella-Delta</a></li>
+    </ul>
+  </aside>  
+
+  <main>
+    
+    <br><br>
+
+    <section>
+      <article>
+      <div class="Descripcion_index">
+        <div class="row align-items-start" >
+           <p class="parrafos">
+            <strong>La Ley de Ohm </strong> es una de las bases de la electricidad y establece la relación entre voltaje (V),
+            corriente (I) y resistencia (R) en un circuito eléctrico. <br><br>
+
+            Se expresa con la fórmula: <br><br>
+            
+            🔹 V = I x R <br><br>
+            
+            Donde: <br>
+            ✅ V es el voltaje en voltios (V) <br>
+            ✅ I es la corriente en amperios (A) <br>
+            ✅ R es la resistencia en ohmios (Ω) <br><br><br>
+            </p>
+
+            <center>
+              <img   class="Imagen_tabla" src="Imagenes/simbolos electricos.jpg" alt="simbolos electricos"><br><br><br>
+            </center>
+            
+            <center>
+            <p class="parrafos">  
+            <strong> Ejemplo práctico: </strong> Si un circuito tiene una resistencia de 10Ω y una corriente de 2A, el
+             voltaje será: <br><br>
+
+              <img   class="Imagen_conceptos" src="Imagenes/Circuito basico.jpg" alt="circuito basico"><br><br>
+
+
+            V = 2A x 10Ω = 20V <br><br>
+            
+            Esta ley es clave para entender y diseñar circuitos eléctricos. 
+          </p>
+          </center>          
+
+         </div>
+      </div>
+      </article>
+      
+      <br>
+
+      <article>
+        <div class="Secciones_Calculos">
+           <p id="Componentes" style="font-size: 20px;">
+            <center>
+            <h2 class="Titulo_Secundario"><strong>Herramienta Online Ley de Ohm</strong></h2> <br>  
+
+            <select id="variable_electrica" class="form-select" aria-label="Default select example" style="width: 200px;">
+              <option value="Voltaje">Voltaje</option>
+              <option value="Corriente">Corriente</option>
+              <option value="Resistencia">Resistencia</option>
+            </select>
+
+            <br><br>
+
+           <table>
+              <tbody>
+                <tr>
+                  <td style="padding-right: 10px;">Voltaje</td>
+                  <td><input type="number" class="form-control text-center" id="Voltaje_Ohm" ></td>
+                  <td style="padding-left: 10px;">Voltios</td>
+                </tr>
+                <tr>
+                  <td style="padding-right: 10px;">Corriente</td>
+                  <td><input type="number" class="form-control text-center" id="Corriente_Ohm" ></td>
+                  <td style="padding-left: 10px;">Amp</td>
+                </tr>
+                <tr>
+                  <td style="padding-right: 10px;">Resistencia</td>
+                  <td><input type="number" class="form-control text-center" id="Resistencia_Ohm" ></td>
+                  <td style="padding-left: 10px;">Ω</td>
+                </tr>
+              </tbody>
+           </table><br>
+
+           <button id="Calcular_ohm" type="button" class="btn btn-primary">Calcular</button> <br><br>
+           <span id ="Resultado_ohm"></span>
+          </center>
+          </p>
+        </div>
+      </article>
+    </section>
+  
+    <br><br>
+
+    <section>
+      <article>
+        <div class="Contenedor_articulos">
+           <p id="Componentes" style="font-size: 20px;">
+            <h2 class="Titulo_Secundario"><strong>Potencia en Resistores Eléctricos</strong></h2> <br>  
+            <p class="parrafos">
+              La potencia en resistores eléctricos se puede calcular con las siguientes fórmulas, dependiendo de los valores
+              que tengas: <br><br>  
+            </p>
+            
+            <h3 class="Titulo_Terciario">1. Usando la ley de Ohm y la potencia:</h3>  <br>
+            <p class="parrafos">
+             
+               P = V * I <br><br>
+
+                 Donde:  <br>
+                 - P es la potencia en vatios (W).  <br>
+                 - V  es el voltaje en voltios (V).  <br>
+                 - I  es la corriente en amperios (A).  <br><br>
+            </p>              
+            
+            <h3 class="Titulo_Terciario">2. Usando la resistencia y el voltaje:</h3> <br>  
+            <span id = "Formula_potencia"></span><br>
+
+              <p class="parrafos">
+              R la resistencia en ohmios (Ω).  <br><br>
+              </p>
+
+              <h3 class="Titulo_Terciario">3. Usando la resistencia y la corriente:</h3><br>  
+              <span id = "Formula_potencia1"></span><br><br>
+              
+              <p class="parrafos">
+              Ejemplo práctico: <br>  
+              Si tienes una resistencia de 10 Ω y un voltaje de 20 V aplicado a ella: <br><br>  
+              <span id = "Formula_potencia2"></span><br><br>
+
+              La resistencia disipará 40 vatios de potencia en forma de calor.
+              </p>
+        </div>
+      </article>
+
+      <br><br>
+
+      <article>
+        <div class="Secciones_Calculos">
+          <p id="Componentes" style="font-size: 20px;">
+            <center>
+            <h2 class="Titulo_Secundario"><strong>Herramienta Online Potencia en Resistencias</strong></h2> <br>  
+
+            <select id="variable_electrica_pot" class="form-select" aria-label="Default select example" style="width: 200px;">
+              <option value="Pot_V_I">Potencia ( V , I )</option>
+              <option value="Pot_V_R">Potencia ( V , R )</option>
+              <option value="Pot_I_R">Potencia ( I , R )</option>
+
+              <option value="Vol_P_I">Voltaje ( P , I )</option>
+              <option value="Vol_P_R">Voltaje ( P , R )</option>
+
+              <option value="Corr_P_V">Corriente ( P , V )</option>
+              <option value="Corr_P_R">Corriente ( P , R )</option>
+
+              <option value="Res_P_V">Resistencia ( P , V )</option>
+              <option value="Res_P_I">Resistencia ( P , I )</option>
+
+            </select>
+
+            <br><br>
+
+           <table>
+              <tbody>
+                <tr>
+                  <td style="padding-right: 10px;">Voltaje</td>
+                  <td><input type="number" class="form-control text-center" id="Voltaje_pot" ></td>
+                  <td style="padding-left: 10px;">Voltios</td>
+                </tr>
+                <tr>
+                  <td style="padding-right: 10px;">Corriente</td>
+                  <td><input type="number" class="form-control text-center" id="Corriente_pot" ></td>
+                  <td style="padding-left: 10px;">Amp</td>
+                </tr>
+                <tr>
+                  <td style="padding-right: 10px;">Resistencia</td>
+                  <td><input type="number" class="form-control text-center" id="Resistencia_pot" ></td>
+                  <td style="padding-left: 10px;">Ω</td>
+                </tr>
+                <tr>
+                  <td style="padding-right: 10px;">Potencia</td>
+                  <td><input type="number" class="form-control text-center" id="potencia_pot" ></td>
+                  <td style="padding-left: 10px;">Watts</td>
+                </tr>
+              </tbody>
+           </table><br>
+
+           <button id="Calcular_pot" type="button" class="btn btn-primary">Calcular</button> <br><br>
+           <span id ="Resultado_pot"></span>
+           <span id ="Arreglos"></span>
+          </center>
+          </p>
+        </div>
+      </article>
+
+    </section>
+    
+    <br><br>
+
+    <section>
+      <article>
+        <div class="Contenedor_articulos">
+           <p id="Componentes"></p>
+            <h2 class="Titulo_Secundario"><strong>Arreglos de Resistores Eléctricos</strong></h2>  
+            <p class="parrafos">
+              En un arreglo de resistencias, las resistencias pueden estar conectadas de diferentes maneras, afectando
+              la resistencia total del circuito. Existen dos configuraciones principales: <br><br>  
+            </p>
+
+              <h3 class="Titulo_Terciario">1. Resistencias en Serie</h3>
+              <p class="parrafos"> 
+              - En este tipo de conexión, las resistencias están conectadas una después de otra en una sola trayectoria
+              de corriente. <br><br>
+              </p>
+              
+              <center>
+                <img class="Imagen_faraday" src="Imagenes/Resistencias Series.jpg" alt="resistencias en serie">
+              </center> <br><br>
+  
+              <p class="parrafos"> 
+              - La corriente es la misma en todas las resistencias. <br><br>
+              - La resistencia total se obtiene sumando todas las resistencias individuales: <br><br>
+                Ejemplo: Si tienes tres resistencias de 10 Ω, 20 Ω y 30 Ω en serie, la resistencia total será 60 Ω
+              </p>
+  
+        </div>
+      </article>
+
+      <br><br>
+
+      <article>
+        <div class="Secciones_Calculos">
+          <p id="Componentes" style="font-size: 20px;">
+            <center>
+            <h2 class="Titulo_Secundario"><strong>Herramienta Online Resistencias en serie</strong></h2> <br>  
+
+            <button id="R_serie" type="button" class="btn btn-success">+ Agregar</button> <br><br>
+
+            <table id ="tabla">
+              <tbody>
+                <tr>
+                  <td>R1</td>
+                  <td><input type="number" class="form-control text-center" id="R1" ></td>
+                  <td><center>Ω</center></td>
+                </tr>
+                <tr>
+                  <td>R2</td>
+                  <td><input  type="number" class="form-control text-center" id="R2" ></td>
+                  <td><center>Ω</center></td>
+                </tr>
+              </tbody>
+           </table><br>
+
+           <button  id = "Resistencia_Serie" type="button" class="btn btn-primary">Calcular</button> <br><br>
+           <span id ="Resultado_serie"></span>
+          </center>
+          </p>
+        </div>
+      </article>
+
+      <br><br>
+
+      <article>
+        <div class="Contenedor_articulos">
+           <p id="Componentes"></p>
+              <h3 class="Titulo_Terciario">2. Resistencias en Paralelo</h3>
+              <p class="parrafos">
+              Son aquellas que están conectadas en un circuito de tal manera que ambos extremos de
+              cada resistencia están unidos a los mismos puntos. Esto significa que el voltaje en cada resistencia es el mismo, pero
+              la corriente se divide entre ellas. <br><br>
+             </p>
+
+              <center>
+                <img class="Imagen_faraday" src="Imagenes/Resistencias Paralelas.jpg" alt="resistencias en paralelo">
+              </center> <br>
+
+              <p class="parrafos">
+              - El voltaje es el mismo en todas las resistencias. <br>
+              - La corriente se divide entre cada resistencia según su valor. <br>
+              - La resistencia equivalente es siempre menor que la menor resistencia del circuito. <br><br>
+
+              Ejemplo de cálculo: Si tienes tres resistencias en paralelo: <br><br>
+              
+              R1 = 100Ω, R2 = 200Ω y R3 = 300Ω <br><br>
+             
+              Se calcula así: <br><br>
+              </p>
+
+              <img class="Imagen_faraday" src="Imagenes/calculo resistencia paralelo.jpg" alt="resistencias en paralelo">
+        </div>
+      </article>
+
+      <br><br>
+
+      <article>
+        <div class="Secciones_Calculos">
+          <p id="Componentes" style="font-size: 20px;">
+            <center>
+            <h2 class="Titulo_Secundario"><strong>Herramienta Online Resistencias en Paralelo</strong></h2> <br>  
+
+            <button id="R_paralelo" type="button" class="btn btn-success">+ Agregar</button> <br><br>
+
+            <table id ="tabla1">
+              <tbody>
+                <tr>
+                  <td>R1</td>
+                  <td><input type="number" class="form-control text-center" id="Rp1" ></td>
+                  <td><center>Ω</center></td>
+                </tr>
+                <tr>
+                  <td>R2</td>
+                  <td><input  type="number" class="form-control text-center" id="Rp2" ></td>
+                  <td><center>Ω</center></td>
+                </tr>
+              </tbody>
+           </table><br>
+
+           <button  id = "Resistencia_Paralelas" type="button" class="btn btn-primary">Calcular</button> <br><br>
+           <span id ="Resultado_paralelo"></span>
+           <span id ="Analisis"></span>
+          </center>
+          </p>
+        </div>
+      </article>
+
+    </section>
+
+    <br><br>
+
+    <section>
+      <article>
+        <div class="Contenedor_articulos">
+          <h2 class="Titulo_Secundario"><strong>Ley de Voltajes de Kirchhoff (LVK)</strong></h2>
+          <p class="parrafos">
+          La Ley de Voltajes de Kirchhoff (LVK) establece que la suma algebraica de todas las diferencias de potencial (voltajes)
+          en un lazo cerrado de un circuito es igual a cero. Matemáticamente, se expresa como: <br><br>
+          </p>
+
+          <center> ∑ V = 0</center> <br>
+  
+          <p class="parrafos">
+          <strong>Explicación</strong> <br>
+          Esta ley se basa en la conservación de la energía. Cuando una carga eléctrica se mueve a través de un circuito cerrado,
+          la energía ganada en fuentes de voltaje (baterías, generadores) debe ser igual a la energía perdida en resistencias u 
+          otros componentes. <br><br>
+          
+          <strong>Aplicación</strong> <br>
+          Para aplicar la LVK en un circuito: <br><br>
+          
+          1-) Identifica los lazos cerrados en el circuito. <br><br>
+          
+          2-) Elige una dirección de recorrido (sentido horario o antihorario). <br><br>
+          
+          3-) Asigna signos a los voltajes: <br><br>
+          - Si atraviesas una fuente de voltaje de negativo a positivo, restas el voltaje (-V). <br>
+          
+          - Si atraviesas una fuente de voltaje de positivo a negativo, sumas el voltaje (+V).<br>
+          
+          - Si pasas por una resistencia en el sentido de la corriente, sumas la caída de voltaje (+IR).<br>
+          
+          - Si pasas por una resistencia en sentido contrario a la corriente, restas el voltaje (-IR).<br><br>
+          
+          Suma todas las caídas y fuentes de voltaje y equívalas a cero. <br><br><br>
+        </p>
+
+          <center>
+            <h3 class="Titulo_Secundario"><strong>Ejemplos con explicación de Ley de Voltajes de Kirchhoff</strong></h3> <br> 
+            <iframe class="Video" src="https://www.youtube.com/embed/kN__-id6XNM?si=QQVB7znwNkK5EKkt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </center>
+
+          </p>
+        </div>
+      </article>
+      
+      <br><br>
+
+      <article>
+        <div class="Contenedor_articulos">
+          <h2 class="Titulo_Secundario"><strong>Ley de Corrientes de Kirchhoff (LVK)</strong></h2>
+          <p class="parrafos"> 
+          La Ley de Corrientes de Kirchhoff establece que la suma de las corrientes que entran a un nodo es igual a la suma
+          de las corrientes que salen del nodo. Matemáticamente, se expresa como: <br><br>
+          </p>
+          <center>∑ Ientrantes = ∑ Isalientes</center> <br>
+
+          <p class="parrafos"> 
+          <strong>Explicación</strong><br>
+          La LCK se basa en la conservación de la carga eléctrica: la cantidad de carga que entra en un punto de un circuito
+          debe ser igual a la que sale, ya que no hay acumulación de carga en los nodos. <br><br>
+          
+          <strong>Aplicación </strong><br>
+          Para aplicar la LCK en un circuito: <br><br>
+          
+          - Identifica un nodo (unión de tres o más elementos) <br><br>
+          
+          - Define las corrientes entrantes y salientes. <br><br>
+          
+          - Escribe la ecuación de corriente en función de las corrientes de los componentes conectados al nodo. <br><br>
+          
+          - Resuelve las ecuaciones para encontrar los valores de las corrientes desconocidas. <br><br>
+          </p>
+          
+          <center>
+            <h3 class="Titulo_Secundario"><strong>Ejemplos con explicación de Ley de Corrientes de Kirchhoff</strong></h3> <br> 
+            <iframe id="Transformacion" class="Video" src="https://www.youtube.com/embed/xvq3fKYSxms?si=d2iI3vHsRVmbCq-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </center>
+
+        </div>
+      </article>
+      <br><br>
+
+      <article>
+        <div class="Contenedor_articulos">
+          <h2 class="Titulo_Secundario"><strong>Transformación Delta a Estrella (Δ → Y o Y → Δ)</strong></h2>
+          <p class="parrafos">
+          La transformación Delta a Estrella (Δ → Y) se usa para convertir una configuración de resistencias en forma de triángulo
+          (Delta, Δ) en una equivalente en forma de estrella (Y o T) o viceversa. Esto facilita el análisis de circuitos eléctricos 
+          complejos, especialmente cuando aplicamos las leyes de Kirchhoff. <br><br>
+          </p>
+          <center>
+            <h3 class="Titulo_Terciario"><strong>Como realizar la Transformación Delta a Estrella (Δ → Y o Y → Δ)</strong></h3> <br> 
+            <iframe class="Video" src="https://www.youtube.com/embed/Mw7ECN33Lfk?si=uBCzhwt95nOTG1BM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </center>
+          </p>
+        </div>
+      </article>
+
+
+
+    </section>
+
+
+
+   <script>
+      const formula = `P = V² / R`;
+      document.getElementById("Formula_potencia").innerHTML = " " + formula;
+
+      const formula1 = `P = I² * R`;
+      document.getElementById("Formula_potencia1").innerHTML = " " + formula1;
+
+      const formula2 = `P = 20² / 10 = 400 / 10 = 40 w`  ;
+      document.getElementById("Formula_potencia2").innerHTML = " " + formula2;
+
+    </script>
+
+  </main>
+
+</div>
+<br><br><br><br>
+
+<div class="Contenedor_Contacto">
+  <img class="Imagen_Contacto" src="Imagenes/Foto Contacto.bmp" alt="Kenny Cadena">
+  <div class="Contenido_Contacto">
+    <center><Strong>Autor:</Strong> Kenny Cadena, Ingeniero Electricista. <br>
+    Con más de 20 años de Graduado en el campo de la Ingeniería Eléctrica y
+    apasionado por la programación.</center><br><br>
+  </div>
+</div>
+
+<footer>
+  <div class = footer>
+    <div id = "footer_quienes" class="footer-section">
+     <ul>
+       <li><strong>Sobre Nosotros</strong></li>
+       <li class="Lista_Calculos"><br><a  href="Quienes Somos.html">Quienes Somos</a></li>
+       <li class="Lista_Calculos">    <a  href="Contacto.html">Contacto</a></li>
+     </ul>
+    </div>
+  
+    <div class="footer-section">
+      <ul>
+        <li><strong>Redes Sociales</strong></li>
+        <li>
+          <div class="redes-sociales">
+            <a href="https://www.facebook.com/electrofacil80/" target="_blank"><img class="Icono_Redes" src="Imagenes/274791_facebook_social network_icon.png" alt=""></i></a>
+            <a href="https://www.instagram.com/elec_trico19/"  target="_blank"><img class="Icono_Redes" src="./Imagenes/6929237_instagram_icon.png" alt=""></i></a>
+            <a href="https://www.tiktok.com/@electrofacil80"   target="_blank"><img class="Icono_Redes" src="./Imagenes/tik-tok.png" alt=""></i></a>
+          </div>
+        </li>
+        <br>
+        <li class="enlaces_footer">&copy; 2025 ELECTRICIDAD FACIL</li>
+        <li class="enlaces_footer">Todos los Derechos</li>
+        <li class="enlaces_footer">Reservados</li>
+      </ul>
+    </div>
+  
+    <div id = "footer_informacion" class="footer-section">
+     <ul> 
+       <li> <strong>Informacion Legal</strong></li><br>
+       <li class="Lista_Calculos"><a class="enlaces_footer" href="Terminos y Condiciones.html" target="_blank">Terminos y Condiciones</a></li>
+       <li class="Lista_Calculos"><a class="enlaces_footer" href="Politicas y Privacidad.html" target="_blank">Politicas de Privacidad</a></li>
+     </ul>
+    </div>
+  
+  </div>
+</footer>
+
+
+    
+    <script src="Calculos Basicos.js"></script>
+
+  </body>
+
+</html>

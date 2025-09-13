@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JVCSHVZ1T"></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-1JVCSHVZ1T');
+    </script>
+    <!-- Fin de Google Analitycs -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4717554128967837"
+    crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Electricidad Fácil es tu sitio educativo donde aprenderás de manera sencilla sobre electricidad. Cursos, tutoriales y guías prácticas para principiantes y expertos. ¡Domina la electricidad y mejora tus habilidades con nuestros recursos gratuitos!">
+  <link rel="stylesheet" type="text/css" href="Estilos.css">
+  
+  
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+      <!-- Boostrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      
+      <!-- JQUERY -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+      <link rel="icon" href="./Imagenes/Easy Facil.png">
+  
+      <title>CARGA ELECTRICA EN CIRCUITOS</title>
+      
+  </head>
+  
+<body class="Fondo">
+
+  <header>
+  
+    <!--Barra de navegación-->
+    <nav class="navbar">
+      <div class="contenedor-menu">
+        <img class="Icono" src="./Imagenes/Easy Facil.png" alt="electricidad">
+        <button id="hamburguesa" class="abrir-menu"><img style="height: 50px; width: 50px;" src="./Imagenes/Icono Hamburguesa 1.jpg" alt="hamburguesa" ></button>
+        <ul class="menu-horizontal">
+          <li><a href="Portada.html">Inicio</a></li>
+          <li><a href="#">Contenido</a>
+            <ul class="menu-vertical">
+              <li><a href="Conceptos.html">Conceptos Básicos</a></li>
+              <li><a href="Fuentes de Energia.html">Fuentes de Energia</a></li>
+              <li><a href="Conductores.html">Conductores Eléctricos</a></li>
+              <li><a href="Carga Electrica.html">Carga en Circuitos</a></li>
+              <li><a href="Interruptores.html">Interruptores Eléctricos</a></li>
+              <li><a href="Puesta a Tierra.html">Sistema de Puesta a Tierra</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Cálculos</a>
+            <ul class="menu-vertical">
+              <li style="margin-bottom: 10px;"><a href="Calculos Basicos.html">Básicos</a></li>
+              <li style="margin-bottom: 10px;"><a href="#">Avanzados</a></li>
+            </ul>
+          </li>
+          <li><a href="Quienes Somos.html">Quienes Somos</a></li>
+          <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+      <!--Fin Barra de navegación-->
+       
+      <!--Menú Hamburguesa -->
+      <div id="movil-menu" class="menu-oculto">
+        <ul class="movil-lista-nav">
+          <li style="margin-top: 10px;"><center><a href="Portada.html">Inicio</a></center></li>
+          <hr size="4px" color="black" />
+          <li><center><a href="#">Contenido</a></center>
+            <hr size="4px" color="black" />
+            <ul class = "sub_menu_movil">
+              <li style="margin-bottom: 10px;"><center><a href="Conceptos.html">Conceptos Básicos</a></center></li>
+              <li style="margin-bottom: 10px;"><center><a href="Fuentes de Energia.html">Fuentes de Energía</a></center></li>
+              <li style="margin-bottom: 10px;"><center><a href="Conductores.html">Conductores Eléctricos</a></center></li>
+              <li style="margin-bottom: 10px;"><center><a href="Carga Electrica.html">Carga en Circuitos</a></center></li>
+              <li style="margin-bottom: 10px;"><center><a href="Interruptores.html">Interruptores Eléctricos</a></center></li>
+              <li style="margin-bottom: 10px;"><center><a href="Puesta a Tierra.html">Sistema de Puesta a Tierra</a></center></li>
+              <hr size="4px" color="black" />
+            </ul>
+          </li>
+          <li><center><a href="#">Cálculos</a></center>
+            <hr size="4px" color="black" />
+            <ul class = "sub_menu_movil">
+              <li style="margin-bottom: 10px;"><center><a href="Calculos Basicos.html"  >Básicos</a></center></li>
+              <li style="margin-bottom: 10px;"><center><a href="#">Avanzados</a></center></li>
+              <hr size="4px" color="black" />
+            </ul>
+          </li>
+          <li style="margin-bottom: 10px;"><center><a href="Quienes Somos.html">Quienes Somos</a></center></li>
+          <hr size="4px" color="black" />
+          <li style="margin-bottom: 10px;"><center><a href="Terminos y Condiciones.html">Términos y Condiciones</a></center></li>
+          <hr size="4px" color="black" />
+          <li style="margin-bottom: 10px;"><center><a href="Politicas y Privacidad.html">Politicas y Privacidad</a></center></li>
+          <hr size="4px" color="black" />
+          <li style="margin-bottom: 10px;"><center><a href="Contacto.html">Contacto</a></center></li>
+          <hr size="4px" color="black" />
+        </ul>
+
+      </div>
+    <!--Fin Menú Hamburguesa -->
+
+  </header>
+
+  <!--Titulo Principal -->
+    <div class="center-div">
+      <center><h1  class="Titulo_Principal"><strong>CARGAS EN <br> CIRCUITOS ELÉCTRICOS </strong></h1></center>
+    </div>
+   <!--Fin de Titulo Principal -->
+
+
+
+<div class="Contenedor">
+
+  <aside class="Aside_Izquierdo">
+    <P style="margin-left: 10px; color: darkgoldenrod;"><strong>MENÚ</strong></P>
+    <ul>
+      <li class="Lista_Calculos"><a href="#">Carga Eléctrica</a>
+      </li>
+      <li class="Lista_Calculos"><a href="#clasificacion">Clasificación</a>
+      <ul>
+        <li><a href="#Naturaleza">Según Naturaleza</a></li>
+        <li><a href="#Corriente">Según Tipo de Corriente</a></li>
+        <li><a href="#Comportamiento">Según Comporta...</a></li>
+        <li><a href="#Tiempo">Según Variación Tiempo</a></li>
+        <li><a href="#Red">Según Efecto en la Red</a></li>
+      </ul> 
+      </li>
+    </ul>
+  </aside>  
+
+  <main>
+    
+    <br><br>
+
+    <section>
+      <!--Descripcion -->
+      <div class="Descripcion_index">
+        <div class="row align-items-start" >
+            <h2 class="Titulo_Secundario"><strong>Una carga en un circuito eléctrico</strong></h2>
+          <p id ="Naturaleza" class="parrafos">
+            Se refiere a cualquier dispositivo, componente o elemento que consuma energía eléctrica para realizar
+            una función específica, como generar luz, calor o movimiento. 
+          </p>
+
+          <center>
+            <img  id = "Tipos_bat" class="Imagen_conceptos" src="Imagenes//Ejemplos de carga.jpg" alt="electrodomesticos">
+          </center> <br>
+
+        </div>
+      </div>
+      <!--Fin Descripcion -->
+    </section>
+
+    <br><br>
+
+      <!--Descripcion -->
+      <div class="Contenedor_articulos">
+           <p style="font-size: 20px;">
+            <h3 class="Titulo_Terciario" style="color: darkgoldenrod;"><strong>Clasificación de Cargas en un Circuito Eléctrico </strong></h3> <br>  
+            
+            <h4>Según su Naturaleza:</h4>
+            <p class="parrafos">
+            <strong>🔹Carga Resistiva:</strong><br> 
+            </p>
+           
+            <div style="margin-left: 20px;">
+              <p class="parrafos">
+              Convierte la energía eléctrica en calor.Ejemplo:<br>
+               - Resistencias  <br>
+               - Estufas eléctricas <br>  
+               - Focos incandescentes  <br><br>
+              </p>
+              </div>
+            
+            <strong>🔹 Carga Inductiva:</strong><br>
+              <div style="margin-left: 20px;">
+                <p class="parrafos">
+                Tiene bobinas que almacenan energía en un campo magnético. Ejemplo: <br>  
+                 - Motores eléctricos  <br>
+                 - Transformadores <br>  
+                 - Relés <br><br>  
+                </p>
+              </div>
+            
+            <strong>🔹Carga Capacitiva:</strong><br>
+              <div id="Corriente" style="margin-left: 20px;">
+                <p class="parrafos">
+                Usa capacitores para almacenar energía en un campo eléctrico. Ejemplo: <br>  
+                - Bancos de capacitores  <br>
+                - Algunas fuentes de alimentación<br><br><br><br>
+               </p>
+            </div>
+
+
+            <h4>Según el tipo de corriente:</h4><br> 
+            <p class="parrafos">
+            <strong>🔹Cargas de Corriente Continua(CC):</strong><br> 
+            </p>
+            <div style="margin-left: 20px;">
+              <p class="parrafos">
+              Funcionan con corriente continua, como baterías y paneles solares. <br><br>
+              </p>
+            </div>
+
+            <p class="parrafos">
+            <strong>🔹 Cargas de Corriente Alterna(CA):</strong><br>
+            </p>
+            <div id="Comportamiento" style="margin-left: 20px;">
+              <p class="parrafos">
+                Funcionan con corriente alterna, como electrodomésticos y motores eléctricos. <br><br><br>
+              </p>
+            </div>
+  
+
+            <h4 class="Titulo_h4">Según su comportamiento eléctrico:</h4>
+            <p class="parrafos">
+            <strong>🔹Cargas Activas:</strong><br>
+            </p> 
+            <div style="margin-left: 20px;">
+              <p class="parrafos">
+                Generan o entregan energía, como generadores y baterías recargables. <br><br>
+              </p> 
+            </div>
+  
+            <p class="parrafos">
+            <strong>🔹 Cargas Pasivas:</strong><br>
+            </p> 
+            <div id="Tiempo" style="margin-left: 20px;">
+            <p class="parrafos">
+                Solo consumen energía, como resistencias, motores y lámparas. <br><br><br>
+            </p> 
+            </div>
+
+                  
+            <h4 class="Titulo_h4">Según su variabilidad en el tiempo:</h4> 
+            <p class="parrafos">
+            <strong>🔹Cargas Estáticas:</strong> 
+            </p> 
+            <div style="margin-left: 20px;">
+              <p class="parrafos">
+                Su consumo de energía es constante, como una lámpara incandescente.<br><br>
+              </p> 
+            </div>
+
+              <p class="parrafos">
+              <strong>🔹 Cargas Dinámicas o Variables:</strong><br>
+              </p> 
+              <div id="Red" style="margin-left: 20px;">
+                <p class="parrafos">
+                  Su consumo cambia con el tiempo, como un motor que varía su velocidad
+                  o una computadora.<br><br><br>
+                </p> 
+              </div>
+                   
+            <h4 class="Titulo_h4">Según su efecto en la red eléctrica:</h4>
+
+            <p class="parrafos">
+            <strong>🔹Cargas Lineales:</strong><br> 
+            </p> 
+            <div style="margin-left: 20px;">
+                <p class="parrafos">
+                La corriente que consumen es proporcional al voltaje aplicado. Ejemplo: resistencias.<br><br>
+                </p> 
+            </div>
+
+              <p class="parrafos">
+              <strong>🔹 Cargas No Lineales:</strong><br>
+              </p> 
+              <div style="margin-left: 20px;">
+                  <p class="parrafos">
+                   Distorsionan la forma de onda de la corriente debido al uso de dispositivos electrónicos como
+                  rectificadores y variadores de velocidad. <br><br><br><br>
+                </p> 
+              </div>
+
+          </p>
+        </div>
+      </div>
+      <!--Fin Descripcion -->
+    </section>
+
+  </main>
+
+
+</div>
+<br><br><br><br>
+
+<div class="Contenedor_Contacto">
+  <img class="Imagen_Contacto" src="Imagenes/Foto Contacto.bmp" alt="Kenny Cadena">
+  <div class="Contenido_Contacto">
+    <center><Strong>Autor:</Strong> Kenny Cadena, Ingeniero Electricista. <br>
+    Con más de 20 años de Graduado en el campo de la Ingeniería Eléctrica y
+    apasionado por la programación.</center><br><br>
+  </div>
+</div>
+
+<footer>
+  <div class = footer>
+    <div id = "footer_quienes" class="footer-section">
+     <ul>
+       <li><strong>Sobre Nosotros</strong></li>
+       <li class="Lista_Calculos"><br><a  href="Quienes Somos.html">Quienes Somos</a></li>
+       <li class="Lista_Calculos">    <a  href="Contacto.html">Contacto</a></li>
+     </ul>
+    </div>
+  
+    <div class="footer-section">
+      <ul>
+        <li><strong>Redes Sociales</strong></li>
+        <li>
+          <div class="redes-sociales">
+            <a href="https://www.facebook.com/electrofacil80/" target="_blank"><img class="Icono_Redes" src="Imagenes/274791_facebook_social network_icon.png" alt=""></i></a>
+            <a href="https://www.instagram.com/elec_trico19/"  target="_blank"><img class="Icono_Redes" src="./Imagenes/6929237_instagram_icon.png" alt=""></i></a>
+            <a href="https://www.tiktok.com/@electrofacil80"   target="_blank"><img class="Icono_Redes" src="./Imagenes/tik-tok.png" alt=""></i></a>
+          </div>
+        </li>
+        <br>
+        <li class="enlaces_footer">&copy; 2025 ELECTRICIDAD FACIL</li>
+        <li class="enlaces_footer">Todos los Derechos</li>
+        <li class="enlaces_footer">Reservados</li>
+      </ul>
+    </div>
+  
+    <div id = "footer_informacion" class="footer-section">
+     <ul> 
+       <li> <strong>Informacion Legal</strong></li><br>
+       <li class="Lista_Calculos"><a class="enlaces_footer" href="Terminos y Condiciones.html" target="_blank">Terminos y Condiciones</a></li>
+       <li class="Lista_Calculos"><a class="enlaces_footer" href="Politicas y Privacidad.html" target="_blank">Politicas de Privacidad</a></li>
+     </ul>
+    </div>
+  
+  </div>
+</footer>
+
+
+    
+    <script src="Conceptos.js"></script>
+
+  </body>
+
+</html>

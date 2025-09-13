@@ -6,11 +6,26 @@
 
 body {
   font-family: Arial, sans-serif;
+  height: 100vh;
+
+}
+
+.Contenedor_portada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+
+.Contenedor_contendido {
+  display: block;
+  margin-right: 30px;
 }
 
 .Aside_Izquierdo {
   position: sticky;
-  top:  0; /* Fija el aside en la parte superior */
+  top:  100px; /* Fija el aside en la parte superior */
   left: 0; /* O usa right: 0; si lo quieres a la derecha */
   width: 220px; /* Ancho del aside */
   height: 100vh; /* 100% de la altura de la ventana */
@@ -33,16 +48,29 @@ body {
   padding: 20px;
 }
 
-.Contenedor {
+.Fondo {
+  background-color: white;
+}
+
+.center-index {
   display: flex;
- }
+  flex-direction: column;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;
+  margin: auto;
+  background-image: url('Imagenes/index.jpg');
+  height: 100vh;
+  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+}
 
- .Contenedor_login_register {
-  display: flex;
- }
+#Titulo_Principal {
+  margin-top: 10%;
+}
 
-
-.Fondo {background-color: white;
+.enlace_index {
+  margin-bottom: 10%;
 }
 
 .center-div {
@@ -50,84 +78,12 @@ body {
   justify-content: center; /* Centrado horizontal */
   align-items: center;
   margin: auto;
-  background-image: url('Imagenes/Fondo\ nuevo.jpg');
-  height: 300px;
+  background-image: url('Imagenes/index.jpg');
+  height: 400px;
   background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que el fondo se repita */
-  margin-bottom: 50px;
-}
-
-.center-conceptos {
-  display: flex;
-  justify-content: center; /* Centrado horizontal */
-  align-items: center;
-  background-image: url('Imagenes/Fondo\ electrico.jpg');
-  height: 300px;
-  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que el fondo se repita */
-  margin-bottom: 50px;
-}
-
-.center-componentes {
-  display: flex;
-  justify-content: center; /* Centrado horizontal */
-  align-items: center;
-  background-image: url('Imagenes/componentes\ electricos.jpeg');
-  height: 300px;
-  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que el fondo se repita */
-  margin-bottom: 50px;
-}
-
-.center-proteccion {
-  display: flex;
-  justify-content: center; /* Centrado horizontal */
-  align-items: center;
-  background-image: url('Imagenes/Fondo\ Proteccion.jpg');
-  height: 300px;
-  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que el fondo se repita */
-  margin-bottom: 50px;
-}
-
-.center-conexion {
-  display: flex;
-  justify-content: center; /* Centrado horizontal */
-  align-items: center;
-  background-image: url('Imagenes/Fondo\ Conexion');
-  height: 300px;
-  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que el fondo se repita */
-  margin-bottom: 50px;
-}
-
-.center-herramientas {
-  display: flex;
-  justify-content: center; /* Centrado horizontal */
-  align-items: center;
-  background-image: url('Imagenes/Fondo\ herramientas.jpg');
-  height: 300px;
-  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que el fondo se repita */
-  margin-bottom: 50px;
-}
-
-.center-tienda {
-  display: flex;
-  justify-content: center; /* Centrado horizontal */
-  align-items: center;
-  background-image: url('Imagenes/Fondo\ Tienda.jpg');
-  height: 300px;
-  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que el fondo se repita */
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
 .Descripcion_index {
@@ -140,10 +96,20 @@ body {
   padding-right: 20px;
 }
 
-.Descripcion {
+.Contenedor_articulos {
   margin: 30px;
   font-size: 20px;
-  display: flex;
+  display: block;
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+  padding-right: 20px;
+}
+
+.Contenedor_calculos {
+  margin: 30px;
+  font-size: 20px;
+  display: block;
   text-align: justify;
   width: 80%;
   margin: auto;
@@ -151,16 +117,10 @@ body {
 }
 
 
-.Articulos {
-  margin: 30px;
-  font-size: 20px;
+.Contenedor {
   display: flex;
-  text-align: justify;
-  width: 80%;
-  margin: auto;
-  padding-right: 20px;
+  width: 90%;
 }
-
 
 .Contenedor_Secciones {
   display: flex;
@@ -168,17 +128,6 @@ body {
   margin: auto;
   width: 80%;
   padding-right: 20px;
-}
-
-.Secciones {
-  display: block;
-  justify-content: center;
-  width: 250px;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-  border-radius: 10px;
-  background-color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .Secciones_Calculos {
@@ -194,13 +143,6 @@ body {
   margin: auto;
 }
 
-.Secciones_Tablas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  width: 80%;
-}
 
 .Tabla_corriente {
   height: 800px;
@@ -211,13 +153,22 @@ body {
   font-family: Arial, sans-serif;
   color: darkgoldenrod;
   font-size: 60px;
+  padding-top: 100px;
 }
+
 
 .Titulo_Secundario {
   font-family: Arial, sans-serif;
   color: darkgoldenrod;
   position: none;
 }
+
+.Descripcion_Principal {
+  font-family: Arial, sans-serif;
+  color: darkgoldenrod;
+  font-size: 20px;
+}
+
 
 .Fondo_Titulo{
   display: flex;
@@ -230,82 +181,52 @@ body {
   align-items: center;
 }
 
-.Imagen{
-  height: 200px;
-  width:  200px;
-  margin-bottom: 20px;
-}
-
-
-.Imagen_Secciones{
-  height: 300px;
-  width: 800px;
-  margin-left: 30px;
-}
-
-
-.Parrafo_Manual {
-  height: 300px;
-  width:  300px;
-  margin-bottom: 20px;
-  text-align: justify;
-}
-
-.Portada_Tienda_Manual {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-}
-
-.Contenedor_Imagenes_Portada {
-  display: flex;
-  justify-content: center;
-  transition: transform 0.4s ease, background 0.3s ease, box-shadow 0.3s ease;
-}
-
-.Link_Imagenes {
-  margin-left: 40px;
-  margin-right: 20px;
-  text-decoration: none; color: black;
-  margin-bottom: 30px;
-}
-
-
-.Link_Imagenes:hover {
-  transform: scale(1.2);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-.Imagenes-Portada {
+.Imagen_portada{
   height: 200px;
   width:  200px;
 }
 
-.Logo-Amazon {
-  height: 50px;
-  width:  100px;
+
+.Imagen_index{
+  height: 40%;
+  width:  20%;
 }
 
-.Icono-Amazon {
-  height: 30px;
-  width:  30px;
+.Imagen_conceptos {
+  height: 30%;
+  width:  30%;
 }
 
-.Link-amazon {
-  text-decoration: none;
-  color: black;
+.Imagen_faraday {
+  height: 30%;
+  width:  40%;
 }
 
-.Parrafo{
-  margin-top: 50px;
-  width: 200px;
+.Imagen_tabla {
+  height: 60%;
+  width:  70%;
+}
+
+.Imagen_interruptores {
+  height: 50%;
+  width:  60%;
+}
+
+.Video {
+  height: 300px;
+  width:  40%;
 }
 
 .Link{
   text-decoration: none;
-  color: black;
+  color: darkgoldenrod;
 }
+
+.Link :hover{
+  color: blue;
+}
+
+
 
 .Lista_Calculos{
   font-size: 20px;
@@ -327,6 +248,13 @@ body {
 
 .navbar {
   background-color:white;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
 }
 
 .contenedor-menu {
@@ -366,41 +294,6 @@ body {
   background-color: black;
 }
 
-.menu-vertical-login {
-  position: absolute;
-  display: none;
-  list-style: none;
-  width: 300px;
-  background-color: white;
-  padding: auto;
-  border-radius: 10px;
-}
-
-
-.idioma_User {
-  display: flex;
-  margin-left: auto;
-  margin-right: 20px;
-}
-
-.lista_user_idioma {
-  list-style: none;
-}
-
-.muestra_user {
-  text-decoration: none;
-  color: blue;
-}
-
-.idioma_User  li:hover .menu-vertical-login {
-  display: block;
-}
-
-.idioma_User  li ul li a {
-  text-decoration: none;
-}
-
-
 .menu-horizontal li:hover .menu-vertical {
   display: block;
 }
@@ -417,6 +310,7 @@ body {
   color: darkgoldenrod;
 
 }
+
 /* Menú Hamburguesa */
 
 .abrir-menu {
@@ -447,6 +341,10 @@ body {
   list-style: none;
 }
 
+.acerca_de_contacto {
+  display: flex;
+}
+
 /* Fin de Menú Hamburguesa */
 
 
@@ -468,75 +366,8 @@ body {
   display: none;
 }
 
-
-.center-app {
-  display: flex;
-  justify-content: center; /* Centrado horizontal */
-  align-items: center;
-  background-image: url('Imagenes/Fondo\ App.png');
-  height: 300px;
-  background-size: cover; /* Hace que el fondo ocupe todo el contenedor */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que el fondo se repita */
-  margin-bottom: 50px;
-}
-
-
-.Contenedor-app {
+.Contenedor_faraday {
   width: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-
-.Contenedor-login-registro {
-  width: 80%;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-}
-
-.Contenedor-login {
-  width: 40%;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  height: 500px;
-}
-
-.Contenedor-registro {
-  width: 40%;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  height: 600px;
-}
-
-.Imagen_icono_app {
-  height: 100px;
-  width: 200px;
-}
-
-.Imagen_descarga_google {
-  height: 80px;
-  width: 200px;
-}
-
-.Imagen_Contacto {
-  height: 80px;
-  width:  80px;
-  margin-right: 20px;
-}
-
-.Contenedor_Contacto {
-   width: 400px;
-   display:flex;
-   flex-direction: column;
-   justify-content: center;
-   align-content: center;
-   text-align: justify;
-   margin: auto;
-
 }
 
 
@@ -571,42 +402,208 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
+/* Fin Estilos Popup */
 
-.Label_autor {
-  font-size: 30px;
-  align-items: center;
+
+/* Carrusel Inmagenes */
+.carrusel-container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
 }
 
-.menu_calculos {
+.carrusel {
   display: flex;
-  flex-direction: column;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Fin Carrusel*/
+
+
+/* Estilos del pie de página */
+
+footer {
+  display: block;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: aliceblue;
+  color: darkgoldenrod;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.footer-section ul  {
+  list-style: none;
+}
+
+.Icono_Redes  {
+  height: 10%;
+  width: 10%;
+}
+
+.redes-sociales  {
+  padding-top: 10px;
+}
+
+
+.Imagen_Contacto {
+  height: 80px;
+  width:  80px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.Contenedor_Contacto {
+   width: 60%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+  }
+
+.Contenido_Contacto {
+  padding-top: 20px;
+  width: 40%;
+}
+
+.icono_contacto {
+  height: 10%;
+  width:  10%;
+}
+
+/* Aviso de Cookies */
+.aviso {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
-  padding-top: 10px;
-  border-radius: 10px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
-  width: 60%;
-  margin-bottom: 50px;
+  gap: 10px;
 }
 
-.table tbody tr:last-child td {
-  border-bottom: none !important;
+.aviso a {
+  color: #f8d210;
+  text-decoration: underline;
 }
 
-.botones_calculos {
-  background-color: white;
-  color: darkgoldenrod;
-  font-size: 20px;
-  border-style: none;
+.aviso button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.botones_calculos:hover {
-  color: blue;
+.politicas {
+   font-size:20px ;
 }
+
+.parrafos {
+  font-size:20px ;
+}
+
+
+/* Fin Aviso de Cookies */
+
 
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 768px) {
+
+  .Titulo_Secundario {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .Titulo_Terciario {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .Titulo_h4 {
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .Titulo_h5 {
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .parrafos {
+    font-size: 15px;
+    text-align: left;
+    overflow-wrap: break-word; /* Asegura que las palabras largas se dividan */
+    word-wrap: break-word; /* Para compatibilidad con navegadores antiguos */ 
+  }
+
+  .Contenedor_portada {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Contenedor_contendido {
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+  
+
+
+  .carrusel-container {
+    padding-left: 20px;
+  }
+  
+
+  #titulo {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+
+  .Descripcion_Principal {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 10px;
+  }
+
+  #Titulo_Principal {
+    margin-top: 100px;
+  }
+  
+  .Titulo_Principal {
+    font-size: 30px;
+  }
+  
+
+  .enlace_index {
+    margin-bottom: 50px;
+  }
+
+  .Contenedor {
+    width: 100%;
+  }
 
   .Icono {
     height: 10%;
@@ -639,30 +636,13 @@ body {
 
 /* Fin Menú Hamburguesa */
 
-  .ContenedorColumnas {
-    flex-wrap: wrap;  
-  }
-
-  .Contenedor-Imagenes {
-    flex-direction: column; /* Cambia a disposición vertical */
-  }
-
+  
  /* Inicio Header */ 
-  
-  .Titulo_Principal {
-    font-size: 40px;
-  }
 
-  .center-div, .center-conceptos,
-  .center-componentes, .center-proteccion,
-  .center-conexion, .center-herramientas,
-  .center-app {
-    height: 120px;
+  .center-div {
+    height: 200px;
   }
   
-  .center-tienda  {
-    height: 150px;
-  }
 
 /* Fin Header */ 
 
@@ -689,153 +669,96 @@ body {
     width: 250px;
     margin-bottom: 20px;
   }
-  
-  .Imagen {
-    height: 120px;
-    width:  120px;
+
+  .Imagen_conceptos {
+    height: 60%;
+    width:  100%;
   }
+  
+  .Imagen_faraday {
+    height: 50%;
+    width:  100%;
+  }
+
+  
+  .Imagen_tabla {
+    height: 100%;
+    width:  100%;
+  }
+  
+  
+  .Imagen_interruptores {
+    height: 50%;
+    width:  100%;
+  }
+    
+  .Video {
+    height: 300px;
+    width:  100%;
+  }
+
+  
 /* Fin Body Index */ 
 
 
-  .Imagen_Secciones{
-    height: 150px;
-    width: 80%;
-    margin: auto;
-  }
-
-  .Contenedor_Imagenes_Portada {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  }
-
-  .Contenedor-mail {
-     width: 100%;
-  }
-  
-  .Contenedor-contenedor-mail {
-    display: block;
-  }  
-  
-  .text_area {
-    width: 400px;
-  }
-
-  .Contenedor-app {
-    width: 90%;
-  }
-
-  .Secciones_Calculos {
-    width: 90%;
-  }
-    
-  
   .Contenedor_Contacto {
     width: 60%;
     font-size: 12px;
   }
     
   .Imagen_Contacto {
-    height: 60px;
-    width:  60px;
+    height: 80px;
+    width:  80px;
   }
 
-  .Label_autor {
-    font-size: 20px;
-  }
-
-  .Tabla_corriente {
-    height: 700px;
-    width:  400px;
+  .Contenido_Contacto {
+    width: 80%;
   }
   
-
-}
-
-/* Estilos del pie de página */
-footer {
-  background-color:black;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-}
-
-footer p {
-  margin: 0;
-}
-
-.redes-sociales {
-  margin-top: 10px;
-}
-
-.boton-social {
-  display: inline-block;
-  background-color: #fff;
-  color: #333;
-  border: none;
-  padding: 10px;
-  margin: 0 5px;
-  border-radius: 50%;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.boton-social:hover {
-  background-color: #333;
-  color: #fff;
-}
-
-/* Estilos adicionales opcionales */
-footer a {
-  color: #fff;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-.IconRedes {
-  height: 50px;
-  width:  50px;
-}
-
-.IconRedesPop {
-  height: 10%;
-  width:   10%;
-}
-
-.redes-sociales a {
-  margin-right:8px;
-  margin-left: 8px;
-
-}
-
-.Publicidad {
-  height: 300px;
-  width: 300px;
-}
-
-.ColumnaTemperatura {
-  height: 300px;
-  width: 300px;
-}
-
-
-.cuadro-comentarios {
- margin-left: 20%;
- margin-right: 20%;
-}
-
-.cont-datos-personales {
- display: block;
- max-width: 300px;
- background-color: lightgrey;
- padding-top: 20px;
- padding-bottom: 20px;
- margin-bottom: 20px;
- }
-
- .margen-texto {
-  padding-right: 30px;
+  .enlaces_footer {
+    font-size: 15px;
   }
+
+  .Icono_Redes  {
+    height: 10%;
+    width: 10%;
+  }
+
+  .politicas {
+    font-size:15px ;
+  }
+
+  #footer_quienes {
+   display: none;
+  }
+
+  #footer_informacion {
+    display: none;
+   }
+
+   .Secciones_Calculos {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .Secciones_Calculos {
+    width: 100%;
+    margin: auto;
+  }
+
+  .Letra_right {
+   display: none;
+  }
+
+  .form-check-label, .Letra {
+    font-size: 15px;
+   }
+
+   .icono_contacto {
+    height: 30%;
+    width:  30%;
+  }
+ 
+   
+}
+
